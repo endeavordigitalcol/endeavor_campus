@@ -1,0 +1,212 @@
+[03-Dec-2020 19:30:34 UTC] PHP Warning:  Ha sucedido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://wordpress.org/support/forums/">foros de soporte</a>. (WordPress no pudo establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor.) in C:\xampp\htdocs\endeavor_campus\wp-includes\update.php on line 168
+[03-Dec-2020 19:31:01 UTC] PHP Warning:  Ha sucedido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://wordpress.org/support/forums/">foros de soporte</a>. (WordPress no pudo establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor.) in C:\xampp\htdocs\endeavor_campus\wp-includes\update.php on line 403
+[03-Dec-2020 19:31:30 UTC] PHP Warning:  Ha sucedido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://wordpress.org/support/forums/">foros de soporte</a>. (WordPress no pudo establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor.) in C:\xampp\htdocs\endeavor_campus\wp-includes\update.php on line 607
+[10-Dec-2020 15:50:55 UTC] PHP Deprecated:  Required parameter $post follows optional parameter $content in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 840
+[10-Dec-2020 15:50:57 UTC] PHP Deprecated:  Required parameter $post follows optional parameter $content in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 840
+[10-Dec-2020 15:50:58 UTC] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-session-tokens.php on line 69
+[10-Dec-2020 15:51:02 UTC] PHP Deprecated:  Required parameter $tt_id follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 15:51:02 UTC] PHP Deprecated:  Required parameter $taxonomy follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 15:51:04 UTC] PHP Deprecated:  Required parameter $block_attributes follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 15:51:04 UTC] PHP Deprecated:  Required parameter $block_content follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 15:51:32 UTC] PHP Deprecated:  Required parameter $post follows optional parameter $content in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 840
+[10-Dec-2020 15:51:32 UTC] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-session-tokens.php on line 69
+[10-Dec-2020 15:51:32 UTC] PHP Deprecated:  Required parameter $tt_id follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 15:51:32 UTC] PHP Deprecated:  Required parameter $taxonomy follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 15:51:32 UTC] PHP Deprecated:  Required parameter $block_attributes follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 15:51:32 UTC] PHP Deprecated:  Required parameter $block_content follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 15:51:32 UTC] PHP Warning:  Undefined array key "host" in C:\xampp\htdocs\endeavor_campus\wp-includes\l10n.php on line 1075
+[10-Dec-2020 15:51:32 UTC] PHP Warning:  Undefined array key "host" in C:\xampp\htdocs\endeavor_campus\wp-includes\l10n.php on line 1075
+[10-Dec-2020 20:14:49 UTC] PHP Deprecated:  Required parameter $post follows optional parameter $content in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 840
+[10-Dec-2020 20:14:50 UTC] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-session-tokens.php on line 69
+[10-Dec-2020 20:14:50 UTC] PHP Deprecated:  Required parameter $tt_id follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:14:50 UTC] PHP Deprecated:  Required parameter $taxonomy follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:14:50 UTC] PHP Deprecated:  Required parameter $block_attributes follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:14:50 UTC] PHP Deprecated:  Required parameter $block_content follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:14:51 UTC] PHP Deprecated:  Required parameter $post follows optional parameter $content in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 840
+[10-Dec-2020 20:14:51 UTC] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-session-tokens.php on line 69
+[10-Dec-2020 20:14:52 UTC] PHP Deprecated:  Required parameter $tt_id follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:14:52 UTC] PHP Deprecated:  Required parameter $taxonomy follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:14:52 UTC] PHP Deprecated:  Required parameter $block_attributes follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:14:52 UTC] PHP Deprecated:  Required parameter $block_content follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:15:53 UTC] PHP Deprecated:  Required parameter $post follows optional parameter $content in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 840
+[10-Dec-2020 20:15:54 UTC] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-session-tokens.php on line 69
+[10-Dec-2020 20:15:54 UTC] PHP Deprecated:  Required parameter $tt_id follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:15:54 UTC] PHP Deprecated:  Required parameter $taxonomy follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:15:54 UTC] PHP Deprecated:  Required parameter $block_attributes follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:15:54 UTC] PHP Deprecated:  Required parameter $block_content follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:15:55 UTC] PHP Deprecated:  Required parameter $post follows optional parameter $content in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 840
+[10-Dec-2020 20:15:55 UTC] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-session-tokens.php on line 69
+[10-Dec-2020 20:15:55 UTC] PHP Deprecated:  Required parameter $tt_id follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:15:55 UTC] PHP Deprecated:  Required parameter $taxonomy follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:15:55 UTC] PHP Deprecated:  Required parameter $block_attributes follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:15:55 UTC] PHP Deprecated:  Required parameter $block_content follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:16:04 UTC] PHP Deprecated:  Required parameter $post follows optional parameter $content in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 840
+[10-Dec-2020 20:16:04 UTC] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-session-tokens.php on line 69
+[10-Dec-2020 20:16:04 UTC] PHP Deprecated:  Required parameter $tt_id follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:16:04 UTC] PHP Deprecated:  Required parameter $taxonomy follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:16:04 UTC] PHP Deprecated:  Required parameter $block_attributes follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:16:04 UTC] PHP Deprecated:  Required parameter $block_content follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:16:04 UTC] PHP Deprecated:  Required parameter $post follows optional parameter $content in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 840
+[10-Dec-2020 20:16:04 UTC] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-session-tokens.php on line 69
+[10-Dec-2020 20:16:04 UTC] PHP Deprecated:  Required parameter $tt_id follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:16:04 UTC] PHP Deprecated:  Required parameter $taxonomy follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:16:05 UTC] PHP Deprecated:  Required parameter $block_attributes follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:16:05 UTC] PHP Deprecated:  Required parameter $block_content follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:16:07 UTC] PHP Warning:  get_comment(): Argument #1 ($comment) must be passed by reference, value given in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-comment-query.php on line 484
+[10-Dec-2020 20:16:10 UTC] PHP Deprecated:  Required parameter $post follows optional parameter $content in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 840
+[10-Dec-2020 20:16:10 UTC] PHP Deprecated:  Required parameter $post follows optional parameter $content in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 840
+[10-Dec-2020 20:16:10 UTC] PHP Deprecated:  Required parameter $post follows optional parameter $content in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 840
+[10-Dec-2020 20:16:10 UTC] PHP Deprecated:  Required parameter $post follows optional parameter $content in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 840
+[10-Dec-2020 20:16:10 UTC] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-session-tokens.php on line 69
+[10-Dec-2020 20:16:10 UTC] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-session-tokens.php on line 69
+[10-Dec-2020 20:16:10 UTC] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-session-tokens.php on line 69
+[10-Dec-2020 20:16:10 UTC] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-session-tokens.php on line 69
+[10-Dec-2020 20:16:10 UTC] PHP Deprecated:  Required parameter $tt_id follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:16:10 UTC] PHP Deprecated:  Required parameter $taxonomy follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:16:10 UTC] PHP Deprecated:  Required parameter $tt_id follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:16:10 UTC] PHP Deprecated:  Required parameter $taxonomy follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:16:10 UTC] PHP Deprecated:  Required parameter $tt_id follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:16:10 UTC] PHP Deprecated:  Required parameter $taxonomy follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:16:10 UTC] PHP Deprecated:  Required parameter $tt_id follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:16:10 UTC] PHP Deprecated:  Required parameter $taxonomy follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:16:11 UTC] PHP Deprecated:  Required parameter $block_attributes follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:16:11 UTC] PHP Deprecated:  Required parameter $block_content follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:16:11 UTC] PHP Deprecated:  Required parameter $block_attributes follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:16:11 UTC] PHP Deprecated:  Required parameter $block_content follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:16:11 UTC] PHP Deprecated:  Required parameter $block_attributes follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:16:11 UTC] PHP Deprecated:  Required parameter $block_content follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:16:11 UTC] PHP Deprecated:  Required parameter $block_attributes follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:16:11 UTC] PHP Deprecated:  Required parameter $block_content follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:16:12 UTC] PHP Deprecated:  Required parameter $working follows optional parameter $type in C:\xampp\htdocs\endeavor_campus\wp-includes\SimplePie\Locator.php on line 97
+[10-Dec-2020 20:16:12 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, non-static method WP_Feed_Cache::create() cannot be called statically in C:\xampp\htdocs\endeavor_campus\wp-includes\SimplePie\Registry.php:214
+Stack trace:
+#0 C:\xampp\htdocs\endeavor_campus\wp-includes\class-simplepie.php(1412): SimplePie_Registry->call('Cache', 'get_handler', Array)
+#1 C:\xampp\htdocs\endeavor_campus\wp-includes\feed.php(821): SimplePie->init()
+#2 C:\xampp\htdocs\endeavor_campus\wp-includes\widgets.php(1493): fetch_feed('https://wordpre...')
+#3 C:\xampp\htdocs\endeavor_campus\wp-admin\includes\dashboard.php(1519): wp_widget_rss_output('https://wordpre...', Array)
+#4 C:\xampp\htdocs\endeavor_campus\wp-admin\includes\dashboard.php(1125): wp_dashboard_primary_output('dashboard_prima...', Array)
+#5 C:\xampp\htdocs\endeavor_campus\wp-admin\includes\dashboard.php(1503): wp_dashboard_cached_rss_widget('dashboard_prima...', 'wp_dashboard_pr...', Array)
+#6 C:\xampp\htdocs\endeavor_campus\wp-admin\includes\ajax-actions.php(400): wp_dashboard_primary()
+#7 C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-hook.php(287): wp_ajax_dashboard_widgets('')
+#8 C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\endeavor_campus\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\endeavor_campus\wp-admin\admin-ajax.php(176): do_action('wp_ajax_dashboa...')
+#11 {main}
+  thrown in C:\xampp\htdocs\endeavor_campus\wp-includes\SimplePie\Registry.php on line 214
+[10-Dec-2020 20:16:13 UTC] PHP Deprecated:  Required parameter $post follows optional parameter $content in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 840
+[10-Dec-2020 20:16:13 UTC] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-session-tokens.php on line 69
+[10-Dec-2020 20:16:13 UTC] PHP Deprecated:  Required parameter $tt_id follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:16:13 UTC] PHP Deprecated:  Required parameter $taxonomy follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:16:13 UTC] PHP Deprecated:  Required parameter $block_attributes follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:16:13 UTC] PHP Deprecated:  Required parameter $block_content follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:16:19 UTC] PHP Deprecated:  Required parameter $post follows optional parameter $content in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 840
+[10-Dec-2020 20:16:19 UTC] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-session-tokens.php on line 69
+[10-Dec-2020 20:16:19 UTC] PHP Deprecated:  Required parameter $tt_id follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:16:19 UTC] PHP Deprecated:  Required parameter $taxonomy follows optional parameter $object_id in C:\xampp\htdocs\endeavor_campus\wp-includes\nav-menu.php on line 1060
+[10-Dec-2020 20:16:19 UTC] PHP Deprecated:  Required parameter $block_attributes follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[10-Dec-2020 20:16:19 UTC] PHP Deprecated:  Required parameter $block_content follows optional parameter $block_name in C:\xampp\htdocs\endeavor_campus\wp-includes\blocks.php on line 405
+[14-Dec-2020 16:31:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_categories() in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php:5
+Stack trace:
+#0 C:\xampp\htdocs\endeavor_campus\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\endeavor_campus\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\endeavor_campus\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 5
+[14-Dec-2020 16:33:01 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 5
+[14-Dec-2020 17:14:14 UTC] PHP Warning:  Attempt to read property "name" on array in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 15
+[14-Dec-2020 17:14:59 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Term as array in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php:15
+Stack trace:
+#0 C:\xampp\htdocs\endeavor_campus\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\endeavor_campus\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\endeavor_campus\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 15
+[14-Dec-2020 17:15:16 UTC] PHP Parse error:  syntax error, unexpected token "=>", expecting ")" in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 15
+[14-Dec-2020 17:16:11 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 15
+[14-Dec-2020 17:16:24 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Term as array in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php:15
+Stack trace:
+#0 C:\xampp\htdocs\endeavor_campus\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\endeavor_campus\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\endeavor_campus\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 15
+[14-Dec-2020 17:16:51 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "name", expecting identifier or variable or "{" or "$" in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 15
+[15-Dec-2020 14:56:39 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\endeavor_campus\wp-includes\wp-db.php on line 1653
+[15-Dec-2020 14:56:39 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\endeavor_campus\wp-includes\wp-db.php on line 1653
+[15-Dec-2020 17:22:19 UTC] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-query.php on line 3284
+[16-Dec-2020 15:37:45 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\front-page.php on line 54
+[16-Dec-2020 15:37:45 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\front-page.php on line 54
+[16-Dec-2020 15:37:45 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\front-page.php on line 54
+[16-Dec-2020 15:40:18 UTC] PHP Warning:  Attempt to read property "name" on array in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\front-page.php on line 56
+[16-Dec-2020 15:40:18 UTC] PHP Warning:  Attempt to read property "name" on array in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\front-page.php on line 56
+[16-Dec-2020 15:40:18 UTC] PHP Warning:  Attempt to read property "name" on array in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\front-page.php on line 56
+[16-Dec-2020 17:03:53 UTC] PHP Fatal error:  Uncaught TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\front-page.php:84
+Stack trace:
+#0 C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\front-page.php(84): date('d/m/Y', '2020-12-16 10:2...')
+#1 C:\xampp\htdocs\endeavor_campus\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\endeavor_campus\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\endeavor_campus\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\front-page.php on line 84
+[17-Dec-2020 15:46:18 UTC] PHP Warning:  include(C:\xampp\htdocs\endeavor_campus/wp-content/themes/endeavor_campus/inc/categories-imgs.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\functions.php on line 9
+[17-Dec-2020 15:46:18 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\endeavor_campus/wp-content/themes/endeavor_campus/inc/categories-imgs.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\functions.php on line 9
+[17-Dec-2020 15:46:18 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "categories_imgs" not found or invalid function name in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\endeavor_campus\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\front-page.php(125): do_action('get_categories_...', Array)
+#3 C:\xampp\htdocs\endeavor_campus\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\endeavor_campus\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\endeavor_campus\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-hook.php on line 287
+[17-Dec-2020 20:21:54 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\front-page.php on line 80
+[17-Dec-2020 20:26:52 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\inc\partials\categories-imgs.php on line 6
+[17-Dec-2020 20:26:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-recovery-mode-email-service.php on line 351
+[17-Dec-2020 20:26:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-recovery-mode-email-service.php on line 352
+[17-Dec-2020 20:31:55 UTC] PHP Parse error:  Unclosed '{' on line 2 in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\inc\partials\categories-imgs.php on line 25
+[17-Dec-2020 20:36:02 UTC] PHP Parse error:  syntax error, unexpected identifier "http", expecting "," or ";" in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\inc\partials\categories-imgs.php on line 18
+[17-Dec-2020 20:38:03 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "cul", expecting ")" in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\inc\partials\categories-imgs.php on line 13
+[17-Dec-2020 20:40:04 UTC] PHP Parse error:  syntax error, unexpected identifier "http", expecting "," or ";" in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\inc\partials\categories-imgs.php on line 29
+[17-Dec-2020 20:42:04 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting identifier or variable or "{" or "$" in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\inc\partials\categories-imgs.php on line 28
+[17-Dec-2020 20:45:13 UTC] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 11
+[17-Dec-2020 20:45:13 UTC] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 11
+[17-Dec-2020 20:45:13 UTC] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 21
+[17-Dec-2020 20:45:13 UTC] PHP Warning:  Attempt to read property "description" on null in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 21
+[17-Dec-2020 20:50:14 UTC] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 11
+[17-Dec-2020 20:50:14 UTC] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 11
+[17-Dec-2020 20:50:14 UTC] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 21
+[17-Dec-2020 20:50:14 UTC] PHP Warning:  Attempt to read property "description" on null in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 21
+[17-Dec-2020 20:53:30 UTC] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 11
+[17-Dec-2020 20:53:30 UTC] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 11
+[17-Dec-2020 20:53:30 UTC] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 21
+[17-Dec-2020 20:53:30 UTC] PHP Warning:  Attempt to read property "description" on null in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 21
+[22-Dec-2020 01:37:20 UTC] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 11
+[22-Dec-2020 01:37:20 UTC] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 11
+[22-Dec-2020 01:37:20 UTC] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 21
+[22-Dec-2020 01:37:20 UTC] PHP Warning:  Attempt to read property "description" on null in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 21
+[22-Dec-2020 14:06:06 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "" not found or invalid function name in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\endeavor_campus\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\endeavor_campus\wp-settings.php(557): do_action('init')
+#3 C:\xampp\htdocs\endeavor_campus\wp-config.php(92): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\endeavor_campus\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\endeavor_campus\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-hook.php on line 287
+[22-Dec-2020 14:06:14 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "pf_deactivate_plugin" not found or invalid function name in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\endeavor_campus\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\endeavor_campus\wp-admin\includes\plugin.php(823): do_action('deactivate_post...', false)
+#3 C:\xampp\htdocs\endeavor_campus\wp-admin\plugins.php(208): deactivate_plugins('post-format/pos...', false, false)
+#4 {main}
+  thrown in C:\xampp\htdocs\endeavor_campus\wp-includes\class-wp-hook.php on line 287
+[22-Dec-2020 14:26:55 UTC] PHP Notice:  register_taxonomy se llamó <strong>incorrectamente</strong>. La taxonomía «format» y propiedad «name» (format) entra en conflicto con una propiedad existente en el controlador de entradas de la API REST. Especifica una `rest_base` personalizada al registrar la taxonomía para evitar este error. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje se añadió en la versión 5.4.0.) in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 5311
+[22-Dec-2020 14:27:06 UTC] PHP Notice:  register_taxonomy se llamó <strong>incorrectamente</strong>. La taxonomía «format» y propiedad «name» (format) entra en conflicto con una propiedad existente en el controlador de entradas de la API REST. Especifica una `rest_base` personalizada al registrar la taxonomía para evitar este error. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje se añadió en la versión 5.4.0.) in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 5311
+[22-Dec-2020 14:27:14 UTC] PHP Notice:  register_taxonomy se llamó <strong>incorrectamente</strong>. La taxonomía «format» y propiedad «name» (format) entra en conflicto con una propiedad existente en el controlador de entradas de la API REST. Especifica una `rest_base` personalizada al registrar la taxonomía para evitar este error. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje se añadió en la versión 5.4.0.) in C:\xampp\htdocs\endeavor_campus\wp-includes\functions.php on line 5311
+[04-Jan-2021 13:50:19 UTC] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 11
+[04-Jan-2021 13:50:19 UTC] PHP Warning:  Attempt to read property "name" on null in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 11
+[04-Jan-2021 13:50:19 UTC] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 21
+[04-Jan-2021 13:50:19 UTC] PHP Warning:  Attempt to read property "description" on null in C:\xampp\htdocs\endeavor_campus\wp-content\themes\endeavor_campus\category.php on line 21

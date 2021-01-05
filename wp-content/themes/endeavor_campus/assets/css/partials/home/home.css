@@ -1,0 +1,212 @@
+#home-description h2, .page-description h2{
+    font-family: "Whitney";
+    font-weight: bolder;
+}
+
+.section-title{
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--gray);
+}
+
+.lc-card--header{
+    position: relative;
+}
+
+.lc-card--header img{
+    height: auto;
+}
+
+.lc-card a{
+    color: inherit;
+}
+
+.lc-card a:hover{
+    text-decoration: none;
+    color: var(--light-teal);
+}
+
+.lc-card--overlay{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    border: 0;
+    height: 1.2rem;
+    margin: 0;
+    opacity: .9;
+}
+
+.lc-card--overlay.finance{
+    background: var(--light-purple);
+}
+
+.lc-card--overlay.estrategia-e-innovacion{
+    background: var(--dark-navy);
+}
+
+.lc-card--overlay.operaciones{
+    background: var(--yellow);
+}
+
+.lc-card--overlay.cultura-y-rrhh{
+    background: var(--teal);
+}
+
+.lc-card--body{
+    padding: 1rem;
+    background: var(--light-gray);
+}
+
+.lc-card--cat-name{
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: auto;
+}
+
+.lc-card--footer{
+    padding: 1rem 0;
+}
+
+.lc-card--date, .lc-card--time{
+    display: inline-block;
+    color: var(--gray);
+}
+
+.lc-card--date, .lc-card--time p{
+    font-family: "Whitney Book";
+    font-size: small;
+}
+
+.lc-card--date{
+    float: left;
+}
+
+.lc-card--time{
+    float: right;
+}
+
+#cat-home{
+    background: var(--light-gray);
+    padding: 3rem 0;
+}
+
+.cat-button{
+    border: 1px solid var(--teal);
+    color: var(--teal);
+    font-size: smaller;
+    padding: .5rem;
+    transition: .5s;
+}
+
+.cat-button:hover{
+    background: var(--teal);
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.swiper-cat-home .swiper-slide img{
+    width: 100%;
+}
+
+.sc-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.special-content .sc-card{
+    padding-bottom: 3rem;
+    border-bottom: 1px solid var(--gray);
+}
+
+.sc-card--header{
+    position: relative;
+    height: 100%;
+}
+
+.sc-card--header img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sc-card--body{
+    padding: 1.5rem;
+}
+
+.sp-resource{
+    background: var(--purple);
+}
+
+.sp-button{
+    border: 1px solid white;
+    color: white;
+    font-size: smaller;
+    padding: .5rem;
+    transition: .5s;
+}
+
+.sp-button:hover{
+    background: white;
+    color: var(--purple);
+    text-decoration: none;
+    transition: .5s;
+}
+
+.sp-resource--overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: var(--purple);
+    opacity: .7;
+}
+
+.nl-susc{
+    background-color: var(--light-teal);
+}
+
+.nl-form button{
+    border: 0;
+    background: var(--dark-navy);
+    margin-top: 1rem;
+    color: white;
+    padding: .5rem 1.5rem;
+    border-radius: .3rem;
+    transition: .5s;
+}
+
+.nl-form button:hover{
+    font-weight: bolder;
+    transition: .5s;
+}
+
+.pc-card{
+    background: white;
+    padding: 1rem;
+}
+
+.most-visited--title{
+    border-bottom: 1px solid var(--gray);
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+@media (max-width: 650px){
+    .sc-card{
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+    }
+
+    .sp-resource .sc-card--header{
+        order: 1;
+    }
+
+    .sp-resource .sc-card--body{
+        order: 2;
+    }
+}
+
+

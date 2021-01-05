@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Whitney Book";
+
+    src: url("../fonts/WHITNEY-BOOK-PRO.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Whitney Book";
+
+    src: url("../fonts/WHITNEY-BOOKITAL-PRO.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Whitney";
+
+    src: url("../fonts/WHITNEY-BOLD-PRO.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Whitney";
+
+    src: url("../fonts/WHITNEY-LIGHT-PRO.woff") format("woff");
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Whitney";
+
+    src: url("../fonts/WHITNEY-MEDIUM-PRO.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}

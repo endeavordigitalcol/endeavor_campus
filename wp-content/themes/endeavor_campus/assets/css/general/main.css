@@ -1,0 +1,55 @@
+:root {
+    --dark: rgb(51, 51, 51);
+    --gray: rgb(153, 153, 153);
+    --light-gray: rgb(242, 243, 245);
+    --teal: rgb(27, 152, 151);
+    --light-teal: rgb(129, 208, 214);
+    --dark-teal: rgb(0, 123, 119);
+    --light-purple: rgb(160, 64, 152);
+    --yellow: rgb(250, 166, 26);
+    --dark-navy: rgb(14, 35, 64);
+    --purple: rgb(70, 59, 92);
+    --light-purple: rgb(160, 64, 152);
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    font-family: "Whitney";
+    color: var(--dark);
+}
+
+.color-teal{
+    color: var(--teal);
+}
+
+.color-gray{
+    color: var(--gray);
+}
+
+.color-lgray{
+    color: var(--light-gray);
+}
+
+.color-dark-navy{
+    color: var(--dark-navy);
+}
+
+.bg-lgray{
+    background: var(--light-gray);
+}
+
+.bg-teal{
+    background: var(--teal);
+}
+
+.bg-dark-teal{
+    background: var(--dark-teal);
+}
+
+.swiper-container{
+    width: 100%;
+    height: auto;
+}
+
+.div-bar{
+    border-top: 1px solid var(--gray);
+}

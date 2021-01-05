@@ -1,0 +1,50 @@
+.footer-list{
+    list-style: none;
+    padding-left: 0;
+    padding-top: 1rem;
+}
+
+.footer-list a{
+    font-family: "Whitney Book";
+}
+
+.footer-list a:hover{
+    font-family: "Whitney";
+    text-decoration: none;
+}
+
+.footer-data-list{
+    list-style: none;
+    padding: 1.5rem 0;
+}
+
+.footer-data-list li{
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.footer-data-list li:nth-child(1){
+    padding-left: 0;
+}
+
+.footer-data-list p{
+    color: white;
+}
+
+.footer-data--number{
+    font-size: large;
+    font-weight: bold;
+}
+
+.footer-data--text{
+    font-family: "Whitney Book";
+}
+
+.footer-bar{
+    border-top: 1px solid white;
+}
+
+.footer-logo{
+    max-width: 150px;
+    height: auto;
+}

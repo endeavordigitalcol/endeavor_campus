@@ -1,0 +1,7 @@
+@import url('./general/main.css');
+@import url('./general/header.css');
+@import url('./general/footer.css');
+@import url('./partials/home/slider.css');
+@import url('./partials/home/home.css');
+@import url('./partials/categories/categories.css');
+@import url('./partials/posts/post.css');

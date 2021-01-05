@@ -1,0 +1,48 @@
+.cat-post.operaciones{
+    background-color: var(--yellow);
+}
+
+.cat-post.cultura-y-rrhh{
+    background-color: var(--teal);
+}
+
+.cat-post.estrategia-e-innovacion{
+    background-color: var(--dark-navy);
+}
+
+.img-post img{
+    width: 100%;
+    height: 100%;
+}
+
+.post-date{
+    font-size: large;
+}
+
+.post-data{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.post-data--author, .post-data--time{
+    display: flex;
+    align-items: center;
+}
+
+.post-data--time{
+    border-left: 1px solid var(--gray);
+}
+
+.post-data--author p, .post-data--time p{
+    display: inline-block;
+    padding-left: 1.5rem;
+    font-size: large;
+}
+
+.author-img{
+    max-width: 120px;
+    clip-path: circle(50px at center);
+    display: inline-block;
+}

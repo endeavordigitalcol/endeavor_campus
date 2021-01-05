@@ -1,0 +1,92 @@
+.body-header{
+    position: relative;
+    padding-top: 6rem;
+    margin-bottom: 1rem;
+}
+
+.barra-header img{
+    width: 100%;
+}
+
+#menu-principal {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+#menu-principal li{
+    float: none;
+    display: inline-block;
+}
+
+#menu-principal li:nth-child(1){
+    float: left;
+    padding-left: 8rem;
+}
+
+#menu-principal li:nth-child(2){
+    float: left;
+}
+
+#menu-principal li:nth-child(4){
+    padding-right: 8rem;
+}
+
+#menu-principal li a{
+    font-family: "Whitney";
+    text-transform: uppercase;
+    color: var(--dark);
+    padding: .5rem 1rem;
+    transition: .5s;
+}
+
+#menu-principal li a:hover{
+    text-decoration: none;
+    color: var(--teal);
+    transition: .5s;
+}
+
+.main-menu-logo{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -6rem;
+    content: "";
+}
+
+.custom-logo{
+    width: 12rem;
+    height: 100%;
+}
+
+#top-header{
+    background: var(--light-gray);
+    padding: 1rem 0;
+}
+
+#top-header img{
+    width: 8rem;
+}
+
+#top-header p{
+    color: rgb(153, 153, 153);
+}
+
+.main-menu-logo--mobile{
+    padding: .5rem 0;
+}
+
+.main-menu-logo--mobile img{
+    max-width: 150px;
+}
+
+@media (max-width: 1199px){
+    #menu-principal li:nth-child(1){
+        padding-left: 6rem;
+    }
+
+    #menu-principal li:nth-child(4){
+        padding-right: 6rem;
+    }
+}
