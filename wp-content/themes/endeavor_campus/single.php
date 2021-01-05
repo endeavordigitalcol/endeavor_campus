@@ -8,7 +8,6 @@ if (have_posts()) {
         the_post();
 
         $cat = get_the_category();
-        var_dump(get_the_terms( $post->ID, 'category' ));
 ?>
 
         <section class="container mb-4">
