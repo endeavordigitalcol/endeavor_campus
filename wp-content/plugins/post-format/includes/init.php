@@ -3,8 +3,8 @@
 function pf_init(){
     
     $labels_format = array(
-        'name'              => _x( 'Post formats', 'Taxonomy general name' ),
-        'singular_name'     => _x( 'Post format', 'Taxonomy singular name' ),
+        'name'              => _x( 'Formatos', 'Taxonomy general name' ),
+        'singular_name'     => _x( 'Formato', 'Taxonomy singular name' ),
         'edit_item'         => __( 'Edit Post Format' ),
         'update_item'       => __( 'Update Post Format' ),
         'add_new_item'      => __( 'Add New Post Format' ),
@@ -24,8 +24,8 @@ function pf_init(){
     );
 
     $labels_sector = array(
-        'name'              => _x( 'Posts sectors', 'Taxonomy general name' ),
-        'singular_name'     => _x( 'Post sector', 'Taxonomy singular name' ),
+        'name'              => _x( 'Sectores', 'Taxonomy general name' ),
+        'singular_name'     => _x( 'Sector', 'Taxonomy singular name' ),
         'edit_item'         => __( 'Edit Post Sector' ),
         'update_item'       => __( 'Update Post Sector' ),
         'add_new_item'      => __( 'Add New Post Sector' ),
