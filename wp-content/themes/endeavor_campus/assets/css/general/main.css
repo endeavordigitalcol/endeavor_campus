@@ -10,6 +10,9 @@
     --dark-navy: rgb(14, 35, 64);
     --purple: rgb(70, 59, 92);
     --light-purple: rgb(160, 64, 152);
+    --orange: rgb(240, 75, 36);
+    --red: rgb(255, 102, 102);
+    --blue: rgb(49, 85, 166);
 }
 
 p, h1, h2, h3, h4, h5, h6, ul{

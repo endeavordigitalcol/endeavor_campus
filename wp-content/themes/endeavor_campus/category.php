@@ -7,7 +7,7 @@ $category = get_the_category();
     <div class="slider-home--container categories-hero">
         <img class="slider-home--img" src="https://via.placeholder.com/1920x500" alt="">
         <div class="category-name">
-            <h2 class="category-name--title">
+            <h2 class="category-name--title <?php echo $category[0]->slug ?>">
                 <?php echo $category[0]->name; ?>
             </h2>
         </div>
@@ -28,222 +28,71 @@ $category = get_the_category();
 <section>
     <div class="container">
         <div class="row pt-5">
-            <div class="col-md-4 p-3">
-                <div class="lc-card">
-                    <div class="lc-card--header">
-                        <img class="w-100" src="https://via.placeholder.com/300x169" alt="">
-                        <hr class="lc-card--overlay finance">
-                        </hr>
-                    </div>
-                    <div class="lc-card--body">
-                        <h5 class="lc-card--cat-name color-teal">
-                            Finanzas
-                        </h5>
-                        <img src="<?php echo get_theme_file_uri() ?>/assets/images/lc-card.png" alt="">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex quam, fermentum eget orci sed, tempor finibus turpis.
-                        </p>
-                    </div>
-                    <div class="lc-card--footer">
-                        <p class="lc-card--date">10/01/2020</p>
-                        <div class="lc-card--time">
-                            <p class="color-gray">8 min</p>
+            <?php
+
+            $cat_args = array(
+                'category_name' => $category[0]->name
+            );
+
+            $cat_query = new WP_Query($cat_args);
+
+            if ($cat_query->have_posts()) {
+                while ($cat_query->have_posts()) {
+                    $cat_query->the_post();
+
+            ?>
+
+                    <div class="col-md-4 p-3">
+                        <div class="lc-card">
+                            <div class="lc-card--header">
+                                <a href="<?php the_permalink() ?>">
+                                    <?php
+
+                                    if (has_post_thumbnail()) {
+                                        the_post_thumbnail('full', array('class' => 'w-100'));
+                                    }
+
+                                    ?>
+
+                                    <hr class="lc-card--overlay <?php echo $category[0]->slug ?>" />
+                                </a>
+                            </div>
+                            <div class="lc-card--body">
+                                <h5 class="lc-card--cat-name color-teal">
+                                    <?php
+                                    if ($category[0]->name == 'Cultura y RRHH') {
+                                        echo 'Cultura y recursos humanos';
+                                    } else {
+                                        echo $category[0]->name;
+                                    }
+                                    ?>
+                                </h5>
+                                <img src="<?php echo get_theme_file_uri() ?>/assets/images/lc-card.png" alt="">
+                                <p>
+                                    <a href="<?php the_permalink() ?>"><?php the_title() ?></a>
+                                </p>
+                            </div>
+                            <div class="lc-card--footer">
+                                <p class="lc-card--date"><?php echo date('d/m/Y', strtotime($post->post_date)) ?></p>
+                                <div class="lc-card--time">
+                                    <p class="color-gray">
+                                        <?php
+                                        if (get_post_meta($post->ID, 'Tiempo de lectura', true) != '') {
+                                            echo get_post_meta($post->ID, 'Tiempo de lectura', true) . ' min';
+                                        }
+                                        ?>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-4 p-3">
-                <div class="lc-card">
-                    <div class="lc-card--header">
-                        <img class="w-100" src="https://via.placeholder.com/300x169" alt="">
-                        <hr class="lc-card--overlay economy">
-                        </hr>
-                    </div>
-                    <div class="lc-card--body">
-                        <h5 class="lc-card--cat-name color-teal">
-                            Economía
-                        </h5>
-                        <img src="<?php echo get_theme_file_uri() ?>/assets/images/lc-card.png" alt="">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex quam, fermentum eget orci sed, tempor finibus turpis.
-                        </p>
-                    </div>
-                    <div class="lc-card--footer">
-                        <p class="lc-card--date">10/01/2020</p>
-                        <div class="lc-card--time">
-                            <p class="color-gray">8 min</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 p-3">
-                <div class="lc-card">
-                    <div class="lc-card--header">
-                        <img class="w-100" src="https://via.placeholder.com/300x169" alt="">
-                        <hr class="lc-card--overlay digital">
-                        </hr>
-                    </div>
-                    <div class="lc-card--body">
-                        <h5 class="lc-card--cat-name color-teal">
-                            Digital
-                        </h5>
-                        <img src="<?php echo get_theme_file_uri() ?>/assets/images/lc-card.png" alt="">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex quam, fermentum eget orci sed, tempor finibus turpis.
-                        </p>
-                    </div>
-                    <div class="lc-card--footer">
-                        <p class="lc-card--date">10/01/2020</p>
-                        <div class="lc-card--time">
-                            <p class="color-gray">8 min</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 p-3">
-                <div class="lc-card">
-                    <div class="lc-card--header">
-                        <img class="w-100" src="https://via.placeholder.com/300x169" alt="">
-                        <hr class="lc-card--overlay finance">
-                        </hr>
-                    </div>
-                    <div class="lc-card--body">
-                        <h5 class="lc-card--cat-name color-teal">
-                            Finanzas
-                        </h5>
-                        <img src="<?php echo get_theme_file_uri() ?>/assets/images/lc-card.png" alt="">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex quam, fermentum eget orci sed, tempor finibus turpis.
-                        </p>
-                    </div>
-                    <div class="lc-card--footer">
-                        <p class="lc-card--date">10/01/2020</p>
-                        <div class="lc-card--time">
-                            <p class="color-gray">8 min</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 p-3">
-                <div class="lc-card">
-                    <div class="lc-card--header">
-                        <img class="w-100" src="https://via.placeholder.com/300x169" alt="">
-                        <hr class="lc-card--overlay economy">
-                        </hr>
-                    </div>
-                    <div class="lc-card--body">
-                        <h5 class="lc-card--cat-name color-teal">
-                            Economía
-                        </h5>
-                        <img src="<?php echo get_theme_file_uri() ?>/assets/images/lc-card.png" alt="">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex quam, fermentum eget orci sed, tempor finibus turpis.
-                        </p>
-                    </div>
-                    <div class="lc-card--footer">
-                        <p class="lc-card--date">10/01/2020</p>
-                        <div class="lc-card--time">
-                            <p class="color-gray">8 min</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 p-3">
-                <div class="lc-card">
-                    <div class="lc-card--header">
-                        <img class="w-100" src="https://via.placeholder.com/300x169" alt="">
-                        <hr class="lc-card--overlay digital">
-                        </hr>
-                    </div>
-                    <div class="lc-card--body">
-                        <h5 class="lc-card--cat-name color-teal">
-                            Digital
-                        </h5>
-                        <img src="<?php echo get_theme_file_uri() ?>/assets/images/lc-card.png" alt="">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex quam, fermentum eget orci sed, tempor finibus turpis.
-                        </p>
-                    </div>
-                    <div class="lc-card--footer">
-                        <p class="lc-card--date">10/01/2020</p>
-                        <div class="lc-card--time">
-                            <p class="color-gray">8 min</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 p-3">
-                <div class="lc-card">
-                    <div class="lc-card--header">
-                        <img class="w-100" src="https://via.placeholder.com/300x169" alt="">
-                        <hr class="lc-card--overlay finance">
-                        </hr>
-                    </div>
-                    <div class="lc-card--body">
-                        <h5 class="lc-card--cat-name color-teal">
-                            Finanzas
-                        </h5>
-                        <img src="<?php echo get_theme_file_uri() ?>/assets/images/lc-card.png" alt="">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex quam, fermentum eget orci sed, tempor finibus turpis.
-                        </p>
-                    </div>
-                    <div class="lc-card--footer">
-                        <p class="lc-card--date">10/01/2020</p>
-                        <div class="lc-card--time">
-                            <p class="color-gray">8 min</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 p-3">
-                <div class="lc-card">
-                    <div class="lc-card--header">
-                        <img class="w-100" src="https://via.placeholder.com/300x169" alt="">
-                        <hr class="lc-card--overlay economy">
-                        </hr>
-                    </div>
-                    <div class="lc-card--body">
-                        <h5 class="lc-card--cat-name color-teal">
-                            Economía
-                        </h5>
-                        <img src="<?php echo get_theme_file_uri() ?>/assets/images/lc-card.png" alt="">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex quam, fermentum eget orci sed, tempor finibus turpis.
-                        </p>
-                    </div>
-                    <div class="lc-card--footer">
-                        <p class="lc-card--date">10/01/2020</p>
-                        <div class="lc-card--time">
-                            <p class="color-gray">8 min</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 p-3">
-                <div class="lc-card">
-                    <div class="lc-card--header">
-                        <img class="w-100" src="https://via.placeholder.com/300x169" alt="">
-                        <hr class="lc-card--overlay digital">
-                        </hr>
-                    </div>
-                    <div class="lc-card--body">
-                        <h5 class="lc-card--cat-name color-teal">
-                            Digital
-                        </h5>
-                        <img src="<?php echo get_theme_file_uri() ?>/assets/images/lc-card.png" alt="">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex quam, fermentum eget orci sed, tempor finibus turpis.
-                        </p>
-                    </div>
-                    <div class="lc-card--footer">
-                        <p class="lc-card--date">10/01/2020</p>
-                        <div class="lc-card--time">
-                            <p class="color-gray">8 min</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+            <?php
+
+                }
+            }
+
+            ?>
         </div>
         <div class="row pt-4">
             <div class="col text-center">
@@ -265,19 +114,13 @@ $category = get_the_category();
         </div>
         <div class="row pt-4">
             <div class="col">
-                <div class="swiper-container swiper-cat-home">
+            <div class="swiper-container swiper-cat-home">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="https://via.placeholder.com/400x225" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://via.placeholder.com/400x225" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://via.placeholder.com/400x225" alt="">
-                        </div>
+                        <?php
+                        $categories = get_categories(array('hide_empty' => false));
+                        do_action('get_categories_imgs', $categories);
+                        ?>
                     </div>
-
                 </div>
             </div>
         </div>

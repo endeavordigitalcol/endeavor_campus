@@ -18,7 +18,44 @@
     position: relative;
     top: -1.6rem;
     display: inline-block;
-    background: var(--light-purple);
     color: white;
     padding: .5rem 1rem;
 }
+
+.category-name--title.cultura-y-rrhh{
+    background-color: var(--teal);
+}
+
+.category-name--title.transformacion-digital{
+    background-color: var(--orange);
+}
+
+.category-name--title.mercadeo-y-ventas{
+    background-color: var(--red);
+}
+
+.category-name--title.gobierno-corporativo{
+    background-color: var(--light-teal);
+}
+
+.category-name--title.comunicacion{
+    background-color: var(--blue);
+}
+
+.category-name--title.operaciones{
+    background-color: var(--yellow);
+}
+
+.category-name--title.inversion-y-financiacion{
+    background-color: var(--light-purple);
+}
+
+.category-name--title.finanzas-y-contabilidad{
+    background-color: var(--purple);
+}
+
+.category-name--title.estrategia-e-innovacion{
+    background-color: var(--dark-navy);
+}
+
+

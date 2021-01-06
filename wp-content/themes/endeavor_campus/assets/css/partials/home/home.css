@@ -35,7 +35,7 @@
     opacity: .9;
 }
 
-.lc-card--overlay.finance{
+.lc-card--overlay.inversion-y-financiacion{
     background: var(--light-purple);
 }
 
@@ -49,6 +49,26 @@
 
 .lc-card--overlay.cultura-y-rrhh{
     background: var(--teal);
+}
+
+.lc-card--overlay.transformacion-digital{
+    background: var(--orange);
+}
+
+.lc-card--overlay.mercadeo-y-ventas{
+    background: var(--red);
+}
+
+.lc-card--overlay.comunicacion{
+    background: var(--blue);
+}
+
+.lc-card--overlay.gobierno-corporativo{
+    background: var(--light-teal);
+}
+
+.lc-card--overlay.finanzas-y-contabilidad{
+    background: var(--purple);
 }
 
 .lc-card--body{
