@@ -54,7 +54,7 @@
             ?>
 
                     <div class="col-md-4 p-3">
-                        <div class="lc-card">
+                        <div class="lc-card h-100">
                             <div class="lc-card--header">
                                 <a href="<?php the_permalink() ?>">
                                     <?php

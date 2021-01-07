@@ -20,6 +20,14 @@ p, h1, h2, h3, h4, h5, h6, ul{
     color: var(--dark);
 }
 
+a {
+    color: var(--teal);
+}
+
+a:hover {
+    color: var(--light-teal);
+}
+
 .color-teal{
     color: var(--teal);
 }
