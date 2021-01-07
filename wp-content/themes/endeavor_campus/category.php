@@ -8,7 +8,13 @@ $category = get_the_category();
         <img class="slider-home--img" src="https://via.placeholder.com/1920x500" alt="">
         <div class="category-name">
             <h2 class="category-name--title <?php echo $category[0]->slug ?>">
-                <?php echo $category[0]->name; ?>
+                <?php 
+                    if( $category[0]->slug == 'cultura-y-rrhh' ){
+                        echo 'Cultura y recursos humanos';
+                    }else{
+                        echo $category[0]->name;
+                    }                
+                ?>
             </h2>
         </div>
     </div>
@@ -124,28 +130,7 @@ $category = get_the_category();
     </div>
 </section>
 
-<section class="nl-susc">
-    <div class="container">
-        <div class="row pt-5 pb-5 align-items-center">
-            <div class="col-6">
-                <h3 class="text-white font-weight-bold">
-                    ¡SUSCRIBETE A NUESTRO<br><span class="color-dark-navy">NEWSLETTER DE CONTENIDOS</span><br>PARA EMPRENDEDORES!
-                </h3>
-                <p class="text-white m-0 pt-3">
-                    Recibirás consejos, invitaciones a talleres y herramientas creadas con la experiencia de la Red Endeavor.
-                </p>
-            </div>
-            <div class="col-6">
-                <form class="nl-form" action="">
-                    <div class="form-group">
-                        <input type="email" class="form-control" name="email" id="" placeholder="Correo electrónico">
-                        <button type="submit">ENVIAR</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
+<?php get_template_part('inc/partials/nl-suscription') ?>
 
 <section class="bg-lgray most-visited">
     <div class="container">

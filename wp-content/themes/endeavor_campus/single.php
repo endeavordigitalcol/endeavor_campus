@@ -16,7 +16,13 @@ if (have_posts()) {
                     <div class="cat-post <?php echo $cat[0]->slug ?>">
                         <h3 class="text-upercase pl-4">
                             <a class="text-white text-decoration-none" href="<?php echo home_url('/') . 'categorias/' . $cat[0]->slug ?>">
-                                <?php echo $cat[0]->name ?>
+                                <?php
+                                if ($cat[0]->slug == 'cultura-y-rrhh') {
+                                    echo 'Cultura y recursos humanos';
+                                } else {
+                                    echo $cat[0]->name;
+                                }
+                                ?>
                             </a>
                         </h3>
                     </div>

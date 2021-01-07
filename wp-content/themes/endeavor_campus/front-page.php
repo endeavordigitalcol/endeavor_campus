@@ -127,11 +127,7 @@
             <div class="col">
                 <div class="swiper-container swiper-cat-home">
                     <div class="swiper-wrapper">
-                        <?php
-                        get_template_part( 'inc/partials/slider-categories' );
-                        //$categories = get_categories(array('hide_empty' => false));
-                        //do_action('get_categories_imgs', $categories);
-                        ?>
+                        <?php get_template_part('inc/partials/slider-categories'); ?>
                     </div>
                 </div>
             </div>
