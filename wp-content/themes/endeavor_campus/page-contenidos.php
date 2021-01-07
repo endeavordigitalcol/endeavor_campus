@@ -25,51 +25,24 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-4">
-                <div class="cat-card">
-                    <img src="http://localhost:82/endeavor_campus/wp-content/uploads/2020/12/Finanzas-y-contabilidad-4-3.png" alt="">
+            <?php
+            $cats = get_categories( array( 'hide_empty' => false ) );
+
+            foreach ($cats as $cat) {
+                $cat_img = get_term_meta( $cat->term_id );
+            ?>
+
+                <div class="col-sm-4">
+                    <div class="cat-card">
+                        <a href="<?php echo home_url('categorias/').$cat->slug ?>">
+                            <img src="<?php echo $cat_img['img'][0] ?>" alt="<?php echo $cat->name ?>">
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-4">
-                <div class="cat-card">
-                    <img src="https://via.placeholder.com/300x300" alt="">
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="cat-card">
-                    <img src="https://via.placeholder.com/300x300" alt="">
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="cat-card">
-                    <img src="https://via.placeholder.com/300x300" alt="">
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="cat-card">
-                    <img src="https://via.placeholder.com/300x300" alt="">
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="cat-card">
-                    <img src="https://via.placeholder.com/300x300" alt="">
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="cat-card">
-                    <img src="https://via.placeholder.com/300x300" alt="">
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="cat-card">
-                    <img src="https://via.placeholder.com/300x300" alt="">
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="cat-card">
-                    <img src="https://via.placeholder.com/300x300" alt="">
-                </div>
-            </div>
+
+            <?php
+            }
+            ?>
         </div>
     </div>
 </section>

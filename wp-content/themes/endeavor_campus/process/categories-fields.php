@@ -5,7 +5,7 @@ function custom_categories_fields($taxonomy)
     $term_id = $taxonomy->term_id;
     $cat_meta = get_term_meta($term_id);
     
-    if ($cat_meta['img'] == NULL) {
+    if ( $cat_meta['img'] == NULL ) {
         add_term_meta($term_id, 'img', '');
     }
 
