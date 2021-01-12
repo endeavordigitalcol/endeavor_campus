@@ -5,7 +5,7 @@ $category = get_the_category();
 
 <section class="pt-4">
     <div class="slider-home--container categories-hero">
-        <img class="slider-home--img" src="https://via.placeholder.com/1920x500" alt="">
+        <img class="slider-home--img" src="https://endeavorcampus.com/wp-content/uploads/2021/01/banner_Banner-finanzas-color-V.1-min.png" alt="">
         <div class="category-name">
             <h2 class="category-name--title <?php echo $category[0]->slug ?>">
                 <?php 

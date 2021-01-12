@@ -2,7 +2,7 @@
 
 <section class="pt-4">
     <div class="slider-home--container">
-        <img class="slider-home--img" src="https://via.placeholder.com/1920x500" alt="">
+        <img class="slider-home--img" src="https://endeavorcampus.com/wp-content/uploads/2021/01/banner_Banner-contenidos.png" alt="">
     </div>
 </section>
 
