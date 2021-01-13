@@ -47,6 +47,8 @@
     </div>
 </section>
 
+<?php get_template_part('inc/partials/filter-block-contents') ?>
+
 <section class="special-content">
     <div class="container">
         <div class="row pt-5">
