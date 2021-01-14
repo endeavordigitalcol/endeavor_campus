@@ -15,7 +15,7 @@ $formats     = get_terms([
         <div class="col">
             <form class="filter-block-form" method="$_POST">
                 <div class="form-row align-items-end">
-                    <div class="col">
+                    <div class="col-sm-4">
                         <p>Categoría</p>
                         <select name="category-content" id="category-content" class="form-control">
                             <?php foreach ($categories as $category) { ?>
@@ -23,7 +23,7 @@ $formats     = get_terms([
                             <?php } ?>
                         </select>
                     </div>
-                    <div class="col">
+                    <div class="col-sm-4">
                         <p>Sector</p>
                         <select name="sector-content" id="sector-content" class="form-control">
                             <?php foreach ($sectors as $sector) { ?>
@@ -31,7 +31,7 @@ $formats     = get_terms([
                             <?php } ?>
                         </select>
                     </div>
-                    <div class="col">
+                    <div class="col-sm-4">
                         <p>Formato</p>
                         <select name="format-content" id="format-content" class="form-control">
                             <?php foreach ($formats as $format) { ?>
