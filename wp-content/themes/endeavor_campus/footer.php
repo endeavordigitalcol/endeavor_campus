@@ -1,3 +1,5 @@
+    <?php get_template_part( 'inc/partials/social-icons-bar' ) ?>
+
     <footer class="bg-dark-teal">
         <div class="container">
             <div class="row pt-5">

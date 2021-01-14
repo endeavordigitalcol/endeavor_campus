@@ -1,0 +1,35 @@
+.social-icons-bar{
+    position: fixed;
+    top: 30vh;
+    right: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons-bar li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--teal);
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.social-icons-bar a{
+    display: flex;
+}
+
+.social-icons-bar a:hover{
+    text-decoration: none;
+}
+
+.social-icons-bar a:hover span{    
+    color: var(--light-teal);
+}
+
+.social-icons-bar li span{
+    font-size: 1.5rem;
+    color: white;
+}

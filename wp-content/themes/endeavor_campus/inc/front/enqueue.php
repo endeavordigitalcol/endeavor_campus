@@ -6,11 +6,13 @@ function ca_enqueue()
     $ver = CA_DEV_MODE ? time() : false;
 
     wp_register_style('ca_fonts', $uri . '/assets/css/fonts.css', [], $ver);
+    wp_register_style('ca_font_icons', $uri.'/assets/css/campus-icons/style.css', [], $ver);
     wp_register_style('ca_bootstrap', $uri . '/assets/css/bootstrap-4.5.3/bootstrap.css', [], $ver);
     wp_register_style('ca_style', $uri . '/assets/css/style.css', [], $ver);
     wp_register_style('ca_swiper', 'https://unpkg.com/swiper/swiper-bundle.min.css');
 
     wp_enqueue_style('ca_fonts');
+    wp_enqueue_style('ca_font_icons');
     wp_enqueue_style('ca_bootstrap');
     wp_enqueue_style('ca_style');
     wp_enqueue_style('ca_swiper');

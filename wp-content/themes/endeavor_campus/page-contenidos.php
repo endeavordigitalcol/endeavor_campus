@@ -22,6 +22,8 @@
     </div>
 </section>
 
+<?php get_template_part('inc/partials/filter-block-contents') ?>
+
 <section>
     <div class="container">
         <div class="row">
@@ -46,8 +48,6 @@
         </div>
     </div>
 </section>
-
-<?php get_template_part('inc/partials/filter-block-contents') ?>
 
 <section class="special-content">
     <div class="container">
