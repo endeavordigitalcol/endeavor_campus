@@ -81,7 +81,7 @@
                 <div class="col-lg-8">
                     <p class="text-white">
                         <b>Endeavor Campus</b><br>
-                        2020. Todos los derechos reservados.
+                        &#169; 2020. Todos los derechos reservados.
                     </p>
                 </div>
                 <div class="col-lg-4">

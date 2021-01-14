@@ -120,7 +120,7 @@
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis ut augue sit amet pretium. Mauris ullamcorper ipsum dolor, scelerisque posuere nibh finibus eu.
                 </p>
-                <a class="cat-button" href="<?php echo home_url('/contenidos') ?>">Ver todas las categorías</a>
+                <a class="cat-button" href="<?php echo home_url('/contenidos') ?>">Ver todas las categorías <span class="icon-Right-arrow btn-icon"></span></a>
             </div>
         </div>
         <div class="row pt-5">
@@ -150,7 +150,7 @@
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis ut augue sit amet pretium. Mauris ullamcorper ipsum dolor, scelerisque posuere nibh finibus eu.
                         </p>
-                        <a class="cat-button" href="#">Ver contenido</a>
+                        <a class="cat-button" href="#">Ver contenido <span class="icon-Right-arrow btn-icon"></span></a>
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@
                         <p class="text-white">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis ut augue sit amet pretium. Mauris ullamcorper ipsum dolor, scelerisque posuere nibh finibus eu.
                         </p>
-                        <a class="sp-button" href="#">Ver contenido</a>
+                        <a class="sp-button" href="#">Ver contenido <span class="icon-Right-arrow btn-icon"></span></a>
                     </div>
                     <div class="sc-card--header">
                         <img src="https://via.placeholder.com/600x338" alt="">

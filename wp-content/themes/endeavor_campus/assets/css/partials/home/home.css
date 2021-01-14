@@ -124,6 +124,11 @@
     transition: .5s;
 }
 
+.cat-button .btn-icon, .sp-button .btn-icon{
+    margin-left: 0.3rem;
+    font-size: .6rem;
+}
+
 .swiper-cat-home .swiper-slide img{
     width: 100%;
 }
