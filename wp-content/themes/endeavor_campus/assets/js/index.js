@@ -40,5 +40,9 @@
             }
         }
     })
+
+    $('.wp-block-embed__wrapper iframe').height(
+        ($('.wp-block-embed__wrapper iframe').width() * 9) / 16
+    );
     
 })(jQuery);

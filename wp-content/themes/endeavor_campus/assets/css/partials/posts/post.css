@@ -81,3 +81,7 @@
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
+
+.wp-block-embed__wrapper iframe{
+    width: 100%;
+}
