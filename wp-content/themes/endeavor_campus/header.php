@@ -14,8 +14,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <a href="#">
-                        <img src="http://localhost:82/endeavor_campus/wp-content/uploads/2020/11/Logo-Endeavor-Header.png" alt="">
+                    <a href="https://endeavor.org.co">
+                        <img src="https://endeavorcampus.com/wp-content/uploads/2020/11/Logo-Endeavor-Header.png" alt="">
                     </a>
                 </div>
                 <div class="col-lg-4 d-none d-lg-block">
