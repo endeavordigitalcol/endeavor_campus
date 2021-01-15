@@ -51,7 +51,7 @@ if (have_posts()) {
                 <div class="col-lg-9">
                     <div class="post-data">
                         <div class="post-data--author">
-                            <img src="http://localhost:82/endeavor_campus/wp-content/uploads/2020/12/Endeavor-E-transparent-teal.png" alt="" class="author-img">
+                            <img src="https://endeavorcampus.com/wp-content/uploads/2020/12/Endeavor-E-transparent-teal.png" alt="" class="author-img">
                             <p>Endeavor Colombia</p>
                         </div>
                         <div class="post-data--time">
