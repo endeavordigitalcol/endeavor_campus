@@ -32,5 +32,13 @@
 
         $('.lc-card--body').height( h_lc_card_body - 32 );
     }
+
+    $( window ).scroll(() => {
+        if( window.scrollY > 0 ){
+            if( window.scrollY < window.innerHeight ){
+                $('.social-icons-bar').css({ "top": (window.innerHeight - window.scrollY) + "px"});
+            }
+        }
+    })
     
 })(jQuery);
