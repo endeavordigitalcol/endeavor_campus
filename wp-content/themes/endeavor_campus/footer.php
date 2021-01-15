@@ -11,22 +11,22 @@
                             </h5>
                             <ul class="footer-list">
                                 <li>
-                                    <a href="#" class="text-white">
+                                    <a href="<?php echo home_url('/contenidos') ?>" class="text-white">
                                         Contenidos
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="text-white">
+                                    <a href="<?php echo home_url('/especiales') ?>" class="text-white">
                                         Especiales
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="text-white">
+                                    <a href="<?php echo home_url('/recursos') ?>" class="text-white">
                                         Recursos
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="text-white">
+                                    <a href="<?php echo home_url('/sobre-campus') ?>" class="text-white">
                                         Sobre Campus
                                     </a>
                                 </li>
@@ -38,12 +38,12 @@
                             </h5>
                             <ul class="footer-list">
                                 <li>
-                                    <a href="#" class="text-white">
+                                    <a href="https://endeavor.org.co" class="text-white">
                                         Endeavor Colombia
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="text-white">
+                                    <a href="<?php home_url() ?>" class="text-white">
                                         Endeavor Campus
                                     </a>
                                 </li>
@@ -51,14 +51,9 @@
                         </div>
                         <div class="col-lg-4">
                             <h5 class="text-white font-weight-bold">
-                                Ayuda
+                                Otros
                             </h5>
                             <ul class="footer-list">
-                                <li>
-                                    <a href="#" class="text-white">
-                                        Centro de ayuda
-                                    </a>
-                                </li>
                                 <li>
                                     <a href="#" class="text-white">
                                         Términos y condiciones
@@ -84,10 +79,11 @@
                         &#169; 2020. Todos los derechos reservados.
                     </p>
                 </div>
-                <div class="col-lg-4">
-                    <p class="text-white">
+                <div class="col-lg-4 text-right">
+                    <p class="text-white d-inline-block">
                         Sigue a Endeavor
                     </p>
+                    <?php get_template_part('inc/partials/social-icons-footer') ?>
                 </div>
             </div>
         </div>

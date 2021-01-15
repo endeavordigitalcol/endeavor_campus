@@ -1,0 +1,24 @@
+.social-icons-footer{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.social-icons-footer li{
+    display: inline-block;
+    margin: 0 .3rem;
+}
+
+.social-icons-footer a:hover{
+    text-decoration: none;
+}
+
+.social-icons-footer a:hover span{    
+    color: var(--light-teal);
+}
+
+.social-icons-footer li span{
+    font-size: 1.2rem;
+    color: white;
+}
