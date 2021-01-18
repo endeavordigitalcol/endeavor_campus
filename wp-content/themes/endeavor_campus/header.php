@@ -21,7 +21,9 @@
                 <div class="col-lg-4 d-none d-lg-block">
                     <p class="m-0 text-center">Contenidos para emprendedores</p>
                 </div>
-                <div class="col-lg-4 col-md-6"></div>
+                <div class="col-lg-4 col-md-6 text-right">
+                    <?php get_search_form() ?>
+                </div>
             </div>
         </div>
     </section>

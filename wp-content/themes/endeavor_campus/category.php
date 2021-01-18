@@ -8,12 +8,12 @@ $category = get_the_category();
         <img class="slider-home--img" src="https://endeavorcampus.com/wp-content/uploads/2021/01/banner_Banner-finanzas-color-V.1-min.png" alt="">
         <div class="category-name">
             <h2 class="category-name--title <?php echo $category[0]->slug ?>">
-                <?php 
-                    if( $category[0]->slug == 'cultura-y-rrhh' ){
-                        echo 'Cultura y recursos humanos';
-                    }else{
-                        echo $category[0]->name;
-                    }                
+                <?php
+                if ($category[0]->slug == 'cultura-y-rrhh') {
+                    echo 'Cultura y recursos humanos';
+                } else {
+                    echo $category[0]->name;
+                }
                 ?>
             </h2>
         </div>
@@ -46,55 +46,11 @@ $category = get_the_category();
                 while ($cat_query->have_posts()) {
                     $cat_query->the_post();
 
-            ?>
+                    $args = array(
+                        'cat' => $category
+                    );
 
-                    <div class="col-md-4 p-3">
-                        <div class="lc-card">
-                            <div class="lc-card--header">
-                                <a href="<?php the_permalink() ?>">
-                                    <?php
-
-                                    if (has_post_thumbnail()) {
-                                        the_post_thumbnail('full', array('class' => 'w-100'));
-                                    }
-
-                                    ?>
-
-                                    <hr class="lc-card--overlay <?php echo $category[0]->slug ?>" />
-                                </a>
-                            </div>
-                            <div class="lc-card--body">
-                                <h5 class="lc-card--cat-name color-teal">
-                                    <?php
-                                    if ($category[0]->name == 'Cultura y RRHH') {
-                                        echo 'Cultura y recursos humanos';
-                                    } else {
-                                        echo $category[0]->name;
-                                    }
-                                    ?>
-                                </h5>
-                                <img src="<?php echo get_theme_file_uri() ?>/assets/images/lc-card.png" alt="">
-                                <p>
-                                    <a href="<?php the_permalink() ?>"><?php the_title() ?></a>
-                                </p>
-                            </div>
-                            <div class="lc-card--footer">
-                                <p class="lc-card--date"><?php echo date('d/m/Y', strtotime($post->post_date)) ?></p>
-                                <div class="lc-card--time">
-                                    <p class="color-gray">
-                                        <?php
-                                        if (get_post_meta($post->ID, 'Tiempo de lectura', true) != '') {
-                                            echo get_post_meta($post->ID, 'Tiempo de lectura', true) . ' min';
-                                        }
-                                        ?>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-            <?php
-
+                    get_template_part('inc/partials/content', 'post', $args);
                 }
             }
 
@@ -120,7 +76,7 @@ $category = get_the_category();
         </div>
         <div class="row pt-4">
             <div class="col">
-            <div class="swiper-container swiper-cat-home">
+                <div class="swiper-container swiper-cat-home">
                     <div class="swiper-wrapper">
                         <?php get_template_part('inc/partials/slider-categories') ?>
                     </div>

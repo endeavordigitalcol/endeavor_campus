@@ -90,3 +90,29 @@
         padding-right: 6rem;
     }
 }
+
+.search-form-cont{
+    display: inline-block;
+    background: rgb(235, 235, 235);
+    padding: .1rem .5rem;
+    border-radius: 1.5rem;
+}
+
+.search-form-cont input{
+    background: transparent;
+    border: 0;
+    font-size: .8rem;
+}
+
+.search-form-cont input:focus{
+    border: 0;
+    outline: 0;
+}
+
+.search-form-cont .form-button{
+    cursor: pointer;
+}
+
+.search-form-cont input{
+    display: inline-flex;
+}
