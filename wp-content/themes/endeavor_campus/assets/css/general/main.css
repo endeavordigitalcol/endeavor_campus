@@ -64,3 +64,15 @@ a:hover {
 .div-bar{
     border-top: 1px solid var(--gray);
 }
+
+.wp-block-quote {
+    border-left: solid 3px black;
+    padding-left: 1.5rem;
+    margin: auto;
+}
+
+@media (min-width: 768){
+    .wp-block-quote {
+        width: 90%;
+    }
+}
