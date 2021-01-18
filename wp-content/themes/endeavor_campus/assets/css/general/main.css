@@ -69,9 +69,10 @@ a:hover {
     border-left: solid 3px black;
     padding-left: 1.5rem;
     margin: auto;
+    font-style: italic;
 }
 
-@media (min-width: 768){
+@media (min-width: 768px){
     .wp-block-quote {
         width: 90%;
     }
