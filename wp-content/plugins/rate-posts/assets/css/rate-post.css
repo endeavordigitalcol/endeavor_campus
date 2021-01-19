@@ -1,0 +1,9 @@
+.rating-list li {
+    display: inline;
+    cursor: pointer;
+}
+
+.rating-list li span{
+    font-size: 1.5rem;
+    color: rgb(200, 200, 200);
+}
