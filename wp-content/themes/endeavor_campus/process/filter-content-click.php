@@ -39,12 +39,12 @@ function filter_content_click()
             array(
                 'taxonomy'  => 'custom_post_sector',
                 'field'     => 'slug',
-                'terms'     => ''
+                'terms'     => $sector
             ),
             array(
                 'taxonomy'  => 'custom_post_format',
                 'field'     => 'slug',
-                'terms'     => ''
+                'terms'     => $format
             )
         );
     }
