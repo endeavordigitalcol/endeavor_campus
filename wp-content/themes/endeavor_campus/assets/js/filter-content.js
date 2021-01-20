@@ -3,10 +3,10 @@
         e.preventDefault();
 
         let form = {
-            action: 'filter_content_click',
-            category: $('#category-content').val(),
-            sector: $('#sector-content').val(),
-            format: $('#format-content').val(),
+            action:     'filter_content_click',
+            category:   $('#category-content').val(),
+            sector:     $('#sector-content').val(),
+            format:     $('#format-content').val(),
         };
 
         $.post(filter_obj.ajax_url, form).always(function (data) {

@@ -2,26 +2,52 @@
 
 function filter_content_click()
 {
-    $category = isset($_POST['category']) ? $_POST['category'] : '';
-    $sector   = isset($_POST['sector']) ? $_POST['sector'] : '';
-    $format   = isset($_POST['format']) ? $_POST['format'] : '';
+    $category = isset($_POST['category']) ? sanitize_text_field($_POST['category']) : '';
+    $sector   = isset($_POST['sector']) ? sanitize_text_field($_POST['sector']) : '';
+    $format   = isset($_POST['format']) ? sanitize_text_field($_POST['format']) : '';
+
+    $all = sanitize_text_field('Cualquiera');
+
+    $category   = strcmp($category, $all) ? $category : '';
+    $sector     = strcmp($sector, $all) ? $sector : '';
+    $format     = strcmp($format, $all) ? $format  : '';
 
     $query_args = array(
-        'category_name'     =>  $category,
-        'tax_query'         => array(
-            'relation'  => 'AND',
+        'posts_per_page'    =>  12,
+        'category_name'     =>  $category
+    );
+
+    if ($sector != '' && $format == '') {
+        $query_args['tax_query'] = array(
             array(
                 'taxonomy'  => 'custom_post_sector',
                 'field'     => 'slug',
                 'terms'     => $sector
-            ),
+            )
+        );
+    }elseif ($sector == '' && $format != ''){
+        $query_args['tax_query'] = array(
             array(
                 'taxonomy'  => 'custom_post_format',
                 'field'     => 'slug',
                 'terms'     => $format
             )
-        )
-    );
+        );
+    }elseif ($sector != '' && $format != ''){
+        $query_args['tax_query'] = array(
+            'relation'  => 'AND',
+            array(
+                'taxonomy'  => 'custom_post_sector',
+                'field'     => 'slug',
+                'terms'     => ''
+            ),
+            array(
+                'taxonomy'  => 'custom_post_format',
+                'field'     => 'slug',
+                'terms'     => ''
+            )
+        );
+    }
 
     $filter_query = new WP_Query($query_args);
     $contents = [];
@@ -45,5 +71,5 @@ function filter_content_click()
         }
     }
 
-    wp_send_json( $contents );
+    wp_send_json($contents);
 }
