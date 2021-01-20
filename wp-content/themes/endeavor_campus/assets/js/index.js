@@ -18,20 +18,9 @@
     })
 
     $( window ).load(() => {
-        h_lc_card_body();
+        same_height('.lc-card--body', 32);
+        same_height('.pc-card' ,32);
     });
-
-    function h_lc_card_body(){
-        let h_lc_card_body = 0;
-
-        $('.lc-card--body').each(( index, element ) => {
-            if( element.offsetHeight > h_lc_card_body ){
-                h_lc_card_body = element.offsetHeight;
-            }
-        })
-
-        $('.lc-card--body').height( h_lc_card_body - 32 );
-    }
 
     $( window ).scroll(() => {
         if( window.scrollY > 0 ){
@@ -44,5 +33,17 @@
     $('.wp-block-embed__wrapper iframe').height(
         ($('.wp-block-embed__wrapper iframe').width() * 9) / 16
     );
+
+    function same_height( identifier, padding = 32 ){
+        let h = 0;
+
+        $( identifier ).each(( index, element ) => {
+            if( element.offsetHeight > h ){
+                h = element.offsetHeight;
+            }
+        })
+
+        $( identifier ).height( h - padding );
+    }
     
 })(jQuery);

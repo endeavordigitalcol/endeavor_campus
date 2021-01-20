@@ -213,6 +213,10 @@
     padding: 1rem;
 }
 
+.pc-card p a{
+    color:black;
+}
+
 .most-visited--title{
     border-bottom: 1px solid var(--gray);
     padding-bottom: 1rem;

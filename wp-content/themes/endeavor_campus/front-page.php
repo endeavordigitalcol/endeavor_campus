@@ -139,61 +139,6 @@
 </section>
 
 <?php get_template_part('inc/partials/nl-suscription') ?>
-
-<section class="bg-lgray most-visited">
-    <div class="container">
-        <div class="row pt-5">
-            <div class="col">
-                <h3 class="most-visited--title">
-                    CONTENIDOS POPULARES
-                </h3>
-            </div>
-        </div>
-        <div class="row pt-3 pb-5">
-            <div class="col-lg-4">
-                <div class="pc-card">
-                    <h5 class="pc-card--cat-name color-teal m-0">
-                        FINANZAS
-                    </h5>
-                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/lc-card.png" alt="">
-                    <p class="m-0">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis ut augue sit amet pretium.
-                    </p>
-                </div>
-                <p class="pc-card--date pt-2 font-size-xs">
-                    <small>10/01/2020</small>
-                </p>
-            </div>
-            <div class="col-lg-4">
-                <div class="pc-card">
-                    <h5 class="pc-card--cat-name color-teal m-0">
-                        DIGITAL
-                    </h5>
-                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/lc-card.png" alt="">
-                    <p class="m-0">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis ut augue sit amet pretium.
-                    </p>
-                </div>
-                <p class="pc-card--date pt-2 font-size-xs">
-                    <small>10/01/2020</small>
-                </p>
-            </div>
-            <div class="col-lg-4">
-                <div class="pc-card">
-                    <h5 class="pc-card--cat-name color-teal m-0">
-                        ECONOMÍA
-                    </h5>
-                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/lc-card.png" alt="">
-                    <p class="m-0">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis ut augue sit amet pretium.
-                    </p>
-                </div>
-                <p class="pc-card--date pt-2 font-size-xs">
-                    <small>10/01/2020</small>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
+<?php get_template_part('inc/partials/popular-contents') ?>
 
 <?php get_footer() ?>
