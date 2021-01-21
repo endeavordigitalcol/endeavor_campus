@@ -14,12 +14,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <a href="https://endeavor.org.co">
+                    <a href="https://endeavor.org.co" target="_blank">
                         <img src="https://endeavorcampus.com/wp-content/uploads/2020/11/Logo-Endeavor-Header.png" alt="">
                     </a>
                 </div>
                 <div class="col-lg-4 d-none d-lg-block">
-                    <p class="m-0 text-center">Contenidos para emprendedores</p>
+                    <p class="m-0 text-center"><?php _e('Contenidos para emprendedores', 'campus') ?></p>
                 </div>
                 <div class="col-lg-4 col-md-6 text-right">
                     <?php get_search_form() ?>
