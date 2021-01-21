@@ -26,7 +26,10 @@ $category = get_the_category();
             <p>
                 <?php echo $category[0]->description; ?>
             </p>
-            <a class="cat-button" href="<?php echo get_site_url(); ?>/contenidos">Ver todas las categorías</a>
+            <a class="cat-button" href="<?php echo get_site_url(); ?>/contenidos">
+                <?php _e('Ver todas las categorías', 'campus') ?>
+                <span class="icon-Right-arrow btn-icon">
+            </a>
         </div>
     </div>
 </section>
@@ -70,7 +73,7 @@ $category = get_the_category();
         <div class="row">
             <div class="col">
                 <h2 class="font-weight-bold">
-                    CATEGORÍAS DE CONTENIDO
+                    <?php _e('CATEGORÍAS DE CONTENIDO', 'campus') ?>
                 </h2>
             </div>
         </div>

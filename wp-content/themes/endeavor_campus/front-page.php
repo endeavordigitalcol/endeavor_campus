@@ -15,11 +15,11 @@
         <div class="row pt-5">
             <div class="col">
                 <h2 class="text-center">
-                    DESCRIPCIÓN GRANDE
+                    <?php _e('ENDEAVOR CAMPUS', 'campus') ?>
                 </h2>
                 <p class="text-center pt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
-                    Pellentesque ex quam, fermentum eget orci sed, tempor finibus turpis.
+                    Herramientas y contenidos desarrollados por nuestros Emprendedores Endeavor,<br>
+                    mentores y aliados que te ayudarán a escalar tu emprendimiento.
                 </p>
             </div>
         </div>
@@ -74,7 +74,9 @@
             </div>
             <div class="col-lg-8">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis ut augue sit amet pretium. Mauris ullamcorper ipsum dolor, scelerisque posuere nibh finibus eu.
+                ¿Cuál es el reto de tu empresa que quieres resolver?<br>
+                Selecciona el área de tu emprendimiento en la que tienes un desafío.<br>
+                ¡Seguro tenemos un contenido para ayudarte a resolverlo! 
                 </p>
                 <a class="cat-button" href="<?php echo home_url('/contenidos') ?>">Ver todas las categorías <span class="icon-Right-arrow btn-icon"></span></a>
             </div>

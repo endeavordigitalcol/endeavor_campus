@@ -11,11 +11,12 @@
         <div class="row pt-5">
             <div class="col">
                 <h2 class="text-center">
-                    ¿Qué area de contenido quieres impulsar hoy?
+                    <?php  _e('CATEGORÍAS DE CONTENIDO', 'campus') ?>
                 </h2>
                 <p class="text-center pt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
-                    Pellentesque ex quam, fermentum eget orci sed, tempor finibus turpis.
+                ¿Cuál es el reto de tu empresa que quieres resolver?<br>
+                Selecciona el área de tu emprendimiento en la que tienes un desafío.<br>
+                ¡Seguro tenemos un contenido para ayudarte a resolverlo! 
                 </p>
             </div>
         </div>
