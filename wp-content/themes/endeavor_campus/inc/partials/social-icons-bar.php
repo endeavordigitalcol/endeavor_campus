@@ -1,4 +1,4 @@
-<ul class="social-icons-bar">
+<ul class="social-icons-bar d-none d-lg-block">
     <li>
         <a href="https://www.facebook.com/endeavorcolombia/" target="_blank"><span class="icon-Facebook"></span> </a>
     </li>

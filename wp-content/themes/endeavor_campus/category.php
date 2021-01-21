@@ -80,9 +80,7 @@ $category = get_the_category();
         <div class="row pt-4">
             <div class="col">
                 <div class="swiper-container swiper-cat-home">
-                    <div class="swiper-wrapper">
-                        <?php get_template_part('inc/partials/slider-categories') ?>
-                    </div>
+                    <?php get_template_part('inc/partials/slider-categories') ?>
                 </div>
             </div>
         </div>

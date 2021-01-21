@@ -3,9 +3,14 @@
         slidesPerView: 1, 
         spaceBetween: 16,
         loop: true,
-        speed: 1000,
+        speed: 1500,
+        navigation: {
+            nextEl: '.icon-slider-arrow-right',
+            prevEl: '.icon-slider-arrow-left'
+        },
         autoplay: {
-            delay: 3000
+            delay: 4000,
+            disableOnInteraction: false
         },
         breakpoints: {
             600: {

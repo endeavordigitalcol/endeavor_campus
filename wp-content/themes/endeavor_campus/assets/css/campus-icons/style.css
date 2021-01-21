@@ -1,10 +1,10 @@
 @font-face {
   font-family: "icomoon";
-  src: url("fonts/icomoon.eot?mo401n");
-  src: url("fonts/icomoon.eot?mo401n#iefix") format("embedded-opentype"),
-    url("fonts/icomoon.ttf?mo401n") format("truetype"),
-    url("fonts/icomoon.woff?mo401n") format("woff"),
-    url("fonts/icomoon.svg?mo401n#icomoon") format("svg");
+  src: url("fonts/icomoon.eot?l6q2w6");
+  src: url("fonts/icomoon.eot?l6q2w6#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?l6q2w6") format("truetype"),
+    url("fonts/icomoon.woff?l6q2w6") format("woff"),
+    url("fonts/icomoon.svg?l6q2w6#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,6 +26,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-clock:before {
+  content: "\e916";
+}
 .icon-slider-arrow-right:before {
   content: "\e900";
 }
@@ -50,7 +53,7 @@
 .icon-Estrategia:before {
   content: "\e903";
 }
-.icon-Facebook:before {
+.icon-facebook:before {
   content: "\e904";
 }
 .icon-Finanzas:before {
@@ -62,7 +65,7 @@
 .icon-Innovacion:before {
   content: "\e907";
 }
-.icon-Instagram:before {
+.icon-instagram:before {
   content: "\e908";
 }
 .icon-Inversion:before {

@@ -74,9 +74,9 @@
             </div>
             <div class="col-lg-8">
                 <p>
-                ¿Cuál es el reto de tu empresa que quieres resolver?<br>
-                Selecciona el área de tu emprendimiento en la que tienes un desafío.<br>
-                ¡Seguro tenemos un contenido para ayudarte a resolverlo! 
+                    ¿Cuál es el reto de tu empresa que quieres resolver?<br>
+                    Selecciona el área de tu emprendimiento en la que tienes un desafío.<br>
+                    ¡Seguro tenemos un contenido para ayudarte a resolverlo!
                 </p>
                 <a class="cat-button" href="<?php echo home_url('/contenidos') ?>">Ver todas las categorías <span class="icon-Right-arrow btn-icon"></span></a>
             </div>
@@ -84,9 +84,7 @@
         <div class="row pt-5">
             <div class="col">
                 <div class="swiper-container swiper-cat-home">
-                    <div class="swiper-wrapper">
-                        <?php get_template_part('inc/partials/slider-categories'); ?>
-                    </div>
+                    <?php get_template_part('inc/partials/slider-categories'); ?>
                 </div>
             </div>
         </div>

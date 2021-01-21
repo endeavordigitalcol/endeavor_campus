@@ -35,9 +35,10 @@
             <p class="lc-card--date"><?php echo date('d/m/Y', strtotime($post->post_date)) ?></p>
             <div class="lc-card--time">
                 <p class="color-gray">
+                    <span class="icon-clock"></span>
                     <?php
                     if (get_post_meta($post->ID, 'Tiempo de lectura', true) != '') {
-                        echo get_post_meta($post->ID, 'Tiempo de lectura', true) . ' min';
+                        echo ' ' . get_post_meta($post->ID, 'Tiempo de lectura', true) . ' min';
                     }
                     ?>
                 </p>
