@@ -31,7 +31,7 @@ function r_filter_post_content($content){
         plugins_url( 'process/rate-post-template.php', RATE_POSTS_PLUGIN_URL )
     );
     $post_html  = wp_remote_retrieve_body( $post_tpl_res );
-    $post_html  = str_replace( 'RATE_I18N', __('!Califica este contenido¡', 'rate_posts'), $post_html );
+    $post_html  = str_replace( 'RATE_I18N', __('¡Califica este contenido!', 'rate_posts'), $post_html );
     $post_html  = str_replace( 'POST_ID', $post->ID, $post_html ); 
     $post_html  = str_replace( 'POST_RATING', $post_data['rating'], $post_html );
 
