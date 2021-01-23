@@ -8,7 +8,7 @@ function load_more_contents(){
     $category = get_term( $cat_id );
 
     $args = array(
-        'posts_per_page'    => 3,
+        'posts_per_page'    => 12,
         'category_name'     => $category->name,
         'paged'             => $page + 1
     );
