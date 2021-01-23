@@ -1,6 +1,8 @@
 <?php
+
 get_header();
 $category = get_the_category();
+
 ?>
 
 <section class="pt-4">
@@ -40,7 +42,8 @@ $category = get_the_category();
             <?php
 
             $cat_args = array(
-                'category_name' => $category[0]->name
+                'category_name'     => $category[0]->name,
+                'posts_per_page'    => 12
             );
 
             $cat_query = new WP_Query($cat_args);
@@ -50,7 +53,7 @@ $category = get_the_category();
                     $cat_query->the_post();
 
                     $args = array(
-                        'cat' => $category
+                        'cat'               => $category,
                     );
 
                     get_template_part('inc/partials/content', 'post', $args);
@@ -59,9 +62,18 @@ $category = get_the_category();
 
             ?>
         </div>
+        <div id="more-contents" class="row"></div>
         <div class="row pt-4">
             <div class="col text-center">
-                <a class="cat-button" href="<?php echo get_site_url(); ?>/contenidos">Cargar más contenidos</a>
+                <a 
+                    id="more-contents-button"
+                    class="cat-button"
+                    data-category="<?php echo $category[0]->slug ?>"
+                    data-id="<?php echo $category[0]->term_id ?>"
+                    data-page="1"
+                >
+                    Cargar más contenidos
+                </a>
                 <hr class="div-bar mt-4">
             </div>
         </div>

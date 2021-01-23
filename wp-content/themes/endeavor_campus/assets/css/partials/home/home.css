@@ -115,6 +115,7 @@
     font-size: smaller;
     padding: .5rem;
     transition: .5s;
+    cursor: pointer;
 }
 
 .cat-button:hover{
