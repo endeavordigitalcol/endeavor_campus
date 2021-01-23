@@ -48,7 +48,5 @@
 
             $("#more-contents").append(html);
         })
-
-        console.log($('#more-contents-button').data('page'));
     }
 })(jQuery);
