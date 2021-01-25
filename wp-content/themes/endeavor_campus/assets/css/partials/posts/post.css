@@ -85,3 +85,15 @@
 .wp-block-embed__wrapper iframe{
     width: 100%;
 }
+
+@media (max-width: 550px){
+    .post-data{
+        grid-template-rows: 1fr, 1fr;
+        grid-template-columns: auto;
+    }
+    .post-data--time{
+        padding-top: 1rem;
+        border-bottom: 1px solid var(--gray);
+        border-left: 0;
+    }
+}

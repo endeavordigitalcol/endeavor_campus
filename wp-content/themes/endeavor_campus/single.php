@@ -55,7 +55,7 @@ if (have_posts()) {
                             <p>Endeavor Colombia</p>
                         </div>
                         <div class="post-data--time">
-                            <p>Tiempo estimado de lectura <br><span class="color-gray"><?php echo get_post_meta($post->ID, 'Tiempo de lectura', true) ?> minutos</span></p>
+                            <p>Tiempo estimado de lectura <br><span class="icon-clock"></span> <span class="color-gray"><?php echo get_post_meta($post->ID, 'Tiempo de lectura', true) ?> minutos</span></p>
                         </div>
                     </div>
                 </div>
