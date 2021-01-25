@@ -72,6 +72,10 @@ a:hover {
     font-style: italic;
 }
 
+iframe{
+    max-width: 100%;
+}
+
 @media (min-width: 768px){
     .wp-block-quote {
         width: 90%;

@@ -2,12 +2,13 @@
 
 get_header();
 $category = get_the_category();
+$banner = get_term_meta($category[0]->term_id, 'img_banner', true);
 
 ?>
 
 <section class="pt-4">
-    <div class="slider-home--container categories-hero">
-        <img class="slider-home--img" src="https://endeavorcampus.com/wp-content/uploads/2021/01/banner_Banner-finanzas-color-V.1-min.png" alt="">
+    <div class="categories-hero">
+        <img class="slider-img" src="<?php echo $banner?>" alt="">
         <div class="category-name">
             <h2 class="category-name--title <?php echo $category[0]->slug ?>">
                 <?php

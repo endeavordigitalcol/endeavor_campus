@@ -1,10 +1,13 @@
-<?php get_header() ?>
+<?php 
 
-<section class="pt-4">
-    <div class="slider-home--container">
-        <img class="slider-home--img" src="https://endeavorcampus.com/wp-content/uploads/2021/01/banner_Banner-contenidos.png" alt="">
-    </div>
-</section>
+get_header(); 
+$banner_args = array(
+    'desktop-banner' => 'https://endeavorcampus.com/wp-content/uploads/2021/01/banner_Banner-contenidos.png',
+    'mobile-banner'  => 'https://endeavorcampus.com/wp-content/uploads/2021/01/banner_Banner-contenidos-Mobile.png'
+);
+get_template_part('inc/partials/main-banners', null, $banner_args);
+
+?>
 
 <section class="page-description">
     <div class="container">
