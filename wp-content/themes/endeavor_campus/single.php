@@ -64,7 +64,7 @@ if (have_posts()) {
                 </div>
                 <div class="col-lg-9 mt-5">
                     <?php the_content() ?>
-                    <div class="np-posts-container mt-4 d-sm-none d-md-block">
+                    <div class="np-posts-container mt-4 d-none d-md-block">
                         <?php if (!empty($prev_post)) { ?>
                             <div class="np-posts--prev">
                                 <span class="icon-arrow-left"></span>                                
