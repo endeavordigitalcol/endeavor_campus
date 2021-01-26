@@ -76,6 +76,10 @@ iframe{
     max-width: 100%;
 }
 
+.border-top-gray{
+    border-top: 1px solid var(--gray);
+}
+
 @media (min-width: 768px){
     .wp-block-quote {
         width: 90%;

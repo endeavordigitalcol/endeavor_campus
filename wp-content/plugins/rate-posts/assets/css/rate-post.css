@@ -9,5 +9,41 @@
 }
 
 .rating-post{
-    border-top: 1px solid var(--gray)
+    border-right: 1px solid var(--gray);
+}
+
+.share-post-links li{
+    display: inline-block;
+    color: white;
+    margin: 0 .05rem;
+    padding: .4rem;    
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-flex;
+}
+
+.share-post-links li:nth-child(1){
+    margin-left: 0;
+}
+
+#fb-share{
+    background-color: #3b5998;
+}
+
+#tw-share{
+    background-color: #00acee;    
+}
+
+#in-share{
+    background-color: #0e76a8;
+}
+
+#copy-link{
+    background-color: var(--teal);
+}
+
+@media (max-width: 959px){
+    .rating-post{
+        border-right: 0;
+    }
 }
