@@ -1,6 +1,9 @@
-(function($){
+(function ($) {
     $('#fb-share').click(() => {
-        fb_sharer = 'https://www.facebook.com/sharer/sharer.php?u=';
-        window.open( fb_sharer + $(location).attr('href') );
+        FB.ui({
+            display: 'popup',
+            method: 'share',
+            href: $(location).attr('href'),
+        }, function (response) { });
     })
 })(jQuery);

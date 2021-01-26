@@ -5,16 +5,21 @@
     <?php get_template_part('inc/partials/google-analytics') ?>
     <meta http-equiv="content-type" content="text/html; charset=<?php bloginfo('charset') ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <?php 
-        if(is_single())
-            get_template_part('inc/partials/seo-meta-sn'); 
+
+    <?php
+    if (is_single())
+        get_template_part('inc/partials/seo-meta-sn');
     ?>
 
     <?php wp_head() ?>
 </head>
 
 <body <?php body_class() ?>>
+
+    <?php
+    if (is_single())
+        get_template_part('inc/partials/facebook-js-sdk');
+    ?>
 
     <section id="top-header" class="d-none d-md-block">
         <div class="container">
