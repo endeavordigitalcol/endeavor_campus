@@ -7,3 +7,7 @@
     font-size: 1.5rem;
     color: rgb(200, 200, 200);
 }
+
+.rating-post{
+    border-top: 1px solid var(--gray)
+}
