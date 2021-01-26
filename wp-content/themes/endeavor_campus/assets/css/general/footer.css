@@ -48,3 +48,13 @@
     max-width: 150px;
     height: auto;
 }
+
+.footer-social-icons{
+    text-align: right;
+}
+
+@media (max-width: 768px){
+    .footer-social-icons{
+        text-align: left;
+    }
+}

@@ -22,3 +22,9 @@
     border: none;
     box-shadow: 0 0 0 0.1rem rgba(100, 100, 100, 0.25)
 }
+
+@media (max-width: 550px){
+    .filter-block-form select{
+        max-width: 100%;
+    }
+}
