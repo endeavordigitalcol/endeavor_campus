@@ -7,7 +7,10 @@ if (have_posts()) {
     while (have_posts()) {
         the_post();
 
-        $cat = get_the_category();
+        $cat        = get_the_category();
+        $next_post  = get_adjacent_post(false, '', false);
+        $prev_post  = get_adjacent_post();
+
 ?>
 
         <section class="container mb-4">
@@ -61,6 +64,20 @@ if (have_posts()) {
                 </div>
                 <div class="col-lg-9 mt-5">
                     <?php the_content() ?>
+                    <div class="np-posts-container mt-4">
+                        <?php if (!empty($prev_post)) { ?>
+                            <div class="np-posts--prev">
+                                <span class="icon-arrow-left"></span>                                
+                                <?php previous_post_link('%link', 'Artículo anterior') ?>
+                            </div>
+                        <?php } ?>
+                        <?php if (!empty($next_post)) { ?>
+                            <div class="np-posts--next">
+                                <?php next_post_link('%link', 'Artículo siguiente') ?>
+                                <span class="icon-arrow-right"></span>
+                            </div>
+                        <?php } ?>
+                    </div>
                 </div>
             </div>
         </section>
@@ -77,7 +94,7 @@ if (have_posts()) {
         <div class="row pt-5">
             <div class="col">
                 <h4 class="section-title">
-                    CONTENIDOS RELACIONADOS
+                    <?php _e('CONTENIDOS RELACIONADOS', 'campus') ?>
                 </h4>
             </div>
         </div>

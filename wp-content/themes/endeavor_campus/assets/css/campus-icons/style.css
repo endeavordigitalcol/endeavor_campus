@@ -29,10 +29,13 @@
 .icon-clock:before {
   content: "\e916";
 }
-.icon-slider-arrow-right:before {
+.icon-slider-arrow-right:before,
+.icon-arrow-right:before
+ {
   content: "\e900";
 }
-.icon-slider-arrow-left:before {
+.icon-slider-arrow-left:before,
+.icon-arrow-left:before {
   content: "\e912";
 }
 .icon-star:before {

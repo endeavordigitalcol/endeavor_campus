@@ -86,6 +86,44 @@
     width: 100%;
 }
 
+.np-posts--prev,
+.np-posts--next {
+    display: inline-block;
+    overflow: hidden;
+    background-color: var(--light-teal);
+    cursor: pointer;
+}
+
+.np-posts--prev a,
+.np-posts--next a{
+    color: white;
+    font-family: "Whitney";
+    background-color: var(--teal);
+    text-transform: uppercase;
+    padding: .2rem;
+    transition: .5s;    
+}
+
+.np-posts--prev a:hover,
+.np-posts--next a:hover{
+    text-decoration: none;
+    background-color: var(--light-teal);   
+    transition: .5s;
+}
+
+.np-posts--next .icon-arrow-right,
+.np-posts--prev .icon-arrow-left{
+    background-color: var(--light-teal);
+    color: white;
+    padding: .2rem;
+    line-height: 1.5 !important;
+    position: relative;
+}
+
+.np-posts--next {
+    float: right;
+}
+
 @media (max-width: 550px){
     .post-data{
         grid-template-rows: 1fr, 1fr;
