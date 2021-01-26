@@ -69,7 +69,7 @@
         padding: 0;
     }
     .categories-hero .slider-img{
-        height: 350px;
+        height: 250px;
         object-fit: cover;
     }
 }
