@@ -7,12 +7,26 @@
         }
 
         $.post(filter_obj.ajax_url, form).always(function (data) {
+            $("#spinner").show();
             $('#more-contents-button').data('page', form.page + 1);
             showPosts(data);
         });
     })
 
     function showPosts(data) {
+        if(data.length == 0){
+            html = `
+                <div class="col-12">
+                    <p class="text-center">
+                        No hay más contenidos para la categoría
+                    <p>
+                </div>`;
+
+            $("#more-contents").append(html);
+            $("#spinner").hide();
+
+            return;
+        }
         $(data).each((i, e) => {
             html = `
                 <div class="col-md-4 p-3">
@@ -21,12 +35,12 @@
                             <a href="${e.permalink}">
                                 ${e.thumbnail}
                             </a>
-                            <hr class="lc-card--overlay ${e.category_slug}">
+                            <hr class="lc-card--overlay ${e.categorySlug}">
                         </div>
                         <div class="lc-card--body">
                             <h5 class="lc-card--cat-name color-teal">
-                                <a href="${filter_obj.home_url}/categorias/${e.category_slug}">
-                                    ${e.category_slug == 'cultura-y-rrhh' ? 'Cultura y recursos humanos' : e.category}
+                                <a href="${filter_obj.home_url}categorias/${e.categorySlug}">
+                                    ${e.categorySlug == 'cultura-y-rrhh' ? 'Cultura y recursos humanos' : e.category}
                                 </a>
                             </h5>
                             <img src="${filter_obj.file_uri}/assets/images/lc-card.png" alt="">
@@ -47,6 +61,7 @@
             `;
 
             $("#more-contents").append(html);
+            $("#spinner").hide();
         })
     }
 })(jQuery);

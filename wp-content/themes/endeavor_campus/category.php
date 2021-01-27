@@ -3,14 +3,14 @@
 get_header();
 
 $object = get_queried_object();
-$category = get_category( $object->term_id );
+$category = get_category($object->term_id);
 $banner = get_term_meta($category->term_id, 'img_banner', true);
 
 ?>
 
 <section class="pt-4">
     <div class="categories-hero">
-        <img class="slider-img" src="<?php echo $banner?>" alt="">
+        <img class="slider-img" src="<?php echo $banner ?>" alt="">
         <div class="category-name">
             <h2 class="category-name--title <?php echo $category->slug ?>">
                 <?php
@@ -67,15 +67,14 @@ $banner = get_term_meta($category->term_id, 'img_banner', true);
             ?>
         </div>
         <div id="more-contents" class="row"></div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <div id="spinner"></div>
+            </div>
+        </div>
         <div class="row pt-4">
             <div class="col text-center">
-                <a 
-                    id="more-contents-button"
-                    class="cat-button"
-                    data-category="<?php echo $category->slug ?>"
-                    data-id="<?php echo $category->term_id ?>"
-                    data-page="1"
-                >
+                <a id="more-contents-button" class="cat-button" data-category="<?php echo $category->slug ?>" data-id="<?php echo $category->term_id ?>" data-page="1">
                     Cargar más contenidos
                 </a>
                 <hr class="div-bar mt-4">
