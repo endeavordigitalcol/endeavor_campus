@@ -1,8 +1,11 @@
 <?php
 
 get_header();
-$category = get_the_category();
-$banner = get_term_meta($category[0]->term_id, 'img_banner', true);
+
+$object = get_queried_object();
+$category = get_category( $object->term_id );
+var_dump($category);
+$banner = get_term_meta($category->term_id, 'img_banner', true);
 
 ?>
 
@@ -10,12 +13,12 @@ $banner = get_term_meta($category[0]->term_id, 'img_banner', true);
     <div class="categories-hero">
         <img class="slider-img" src="<?php echo $banner?>" alt="">
         <div class="category-name">
-            <h2 class="category-name--title <?php echo $category[0]->slug ?>">
+            <h2 class="category-name--title <?php echo $category->slug ?>">
                 <?php
-                if ($category[0]->slug == 'cultura-y-rrhh') {
+                if ($category->slug == 'cultura-y-rrhh') {
                     echo 'Cultura y recursos humanos';
                 } else {
-                    echo $category[0]->name;
+                    echo $category->name;
                 }
                 ?>
             </h2>
@@ -27,7 +30,7 @@ $banner = get_term_meta($category[0]->term_id, 'img_banner', true);
     <div class="row pt-4">
         <div class="col-md-8">
             <p>
-                <?php echo $category[0]->description; ?>
+                <?php echo $category->description; ?>
             </p>
             <a class="cat-button" href="<?php echo get_site_url(); ?>/contenidos">
                 <?php _e('Ver todas las categorías', 'campus') ?>
@@ -43,7 +46,7 @@ $banner = get_term_meta($category[0]->term_id, 'img_banner', true);
             <?php
 
             $cat_args = array(
-                'category_name'     => $category[0]->name,
+                'category_name'     => $category->name,
                 'posts_per_page'    => 12
             );
 
@@ -52,9 +55,10 @@ $banner = get_term_meta($category[0]->term_id, 'img_banner', true);
             if ($cat_query->have_posts()) {
                 while ($cat_query->have_posts()) {
                     $cat_query->the_post();
+                    $cat = get_the_category();
 
                     $args = array(
-                        'cat'               => $category,
+                        'cat'               => $cat,
                     );
 
                     get_template_part('inc/partials/content', 'post', $args);
@@ -69,8 +73,8 @@ $banner = get_term_meta($category[0]->term_id, 'img_banner', true);
                 <a 
                     id="more-contents-button"
                     class="cat-button"
-                    data-category="<?php echo $category[0]->slug ?>"
-                    data-id="<?php echo $category[0]->term_id ?>"
+                    data-category="<?php echo $category->slug ?>"
+                    data-id="<?php echo $category->term_id ?>"
                     data-page="1"
                 >
                     Cargar más contenidos
