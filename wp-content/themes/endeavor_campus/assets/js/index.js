@@ -50,5 +50,8 @@
 
         $( identifier ).height( h - padding );
     }
-    
+
+    $('#icon-menu-mobile').click(() => {
+        $('.mobile-main-menu').toggleClass('visible');
+    });    
 })(jQuery);

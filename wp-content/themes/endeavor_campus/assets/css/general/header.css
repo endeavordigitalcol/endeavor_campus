@@ -1,118 +1,171 @@
-.body-header{
-    position: relative;
-    padding-top: 6rem;
-    margin-bottom: 1rem;
+.body-header {
+  position: relative;
+  padding-top: 6rem;
+  margin-bottom: 1rem;
 }
 
-.barra-header img{
-    width: 100%;
+.barra-header img {
+  width: 100%;
 }
 
 #menu-principal {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
 }
 
-#menu-principal li{
-    float: none;
-    display: inline-block;
+#menu-principal li {
+  float: none;
+  display: inline-block;
 }
 
-#menu-principal li:nth-child(1){
-    float: left;
-    padding-left: 8rem;
+#menu-principal li:nth-child(1) {
+  float: left;
+  padding-left: 8rem;
 }
 
-#menu-principal li:nth-child(2){
-    float: left;
+#menu-principal li:nth-child(2) {
+  float: left;
 }
 
-#menu-principal li:nth-child(4){
-    padding-right: 8rem;
+#menu-principal li:nth-child(4) {
+  padding-right: 8rem;
 }
 
-#menu-principal li a{
-    font-family: "Whitney";
-    text-transform: uppercase;
-    color: var(--dark);
-    padding: .5rem 1rem;
-    transition: .5s;
+#menu-principal li a {
+  font-family: "Whitney";
+  text-transform: uppercase;
+  color: var(--dark);
+  padding: 0.5rem 1rem;
+  transition: 0.5s;
 }
 
-#menu-principal li a:hover{
-    text-decoration: none;
-    color: var(--teal);
-    transition: .5s;
+#menu-principal li a:hover {
+  text-decoration: none;
+  color: var(--teal);
+  transition: 0.5s;
 }
 
-.main-menu-logo{
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    margin-left: -6rem;
-    content: "";
+.main-menu-logo {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -6rem;
+  content: "";
 }
 
-.custom-logo{
-    width: 12rem;
-    height: 100%;
+.custom-logo {
+  width: 12rem;
+  height: 100%;
 }
 
-#top-header{
-    background: var(--light-gray);
-    padding: 1rem 0;
+#top-header {
+  background: var(--light-gray);
+  padding: 1rem 0;
 }
 
-#top-header img{
-    width: 8rem;
+#top-header img {
+  width: 8rem;
 }
 
-#top-header p{
-    color: rgb(153, 153, 153);
+#top-header p {
+  color: rgb(153, 153, 153);
 }
 
-.main-menu-logo--mobile{
-    padding: .5rem 0;
+.main-menu-logo--mobile {
+  padding: 0.5rem 0;
 }
 
-.main-menu-logo--mobile img{
-    max-width: 150px;
+.main-menu-logo--mobile img {
+  max-width: 150px;
 }
 
-@media (max-width: 1199px){
-    #menu-principal li:nth-child(1){
-        padding-left: 6rem;
-    }
+@media (max-width: 1199px) {
+  #menu-principal li:nth-child(1) {
+    padding-left: 6rem;
+  }
 
-    #menu-principal li:nth-child(4){
-        padding-right: 6rem;
-    }
+  #menu-principal li:nth-child(4) {
+    padding-right: 6rem;
+  }
 }
 
-.search-form-cont{
-    display: inline-block;
-    background: rgb(235, 235, 235);
-    padding: .1rem .5rem;
-    border-radius: 1.5rem;
+.search-form-cont {
+  display: inline-block;
+  background: rgb(235, 235, 235);
+  padding: 0.1rem 0.5rem;
+  border-radius: 1.5rem;
 }
 
-.search-form-cont input{
-    background: transparent;
-    border: 0;
-    font-size: .8rem;
+.search-form-cont input {
+  background: transparent;
+  border: 0;
+  font-size: 0.8rem;
 }
 
-.search-form-cont input:focus{
-    border: 0;
-    outline: 0;
+.search-form-cont input:focus {
+  border: 0;
+  outline: 0;
 }
 
-.search-form-cont .form-button{
-    cursor: pointer;
+.search-form-cont .form-button {
+  cursor: pointer;
 }
 
-.search-form-cont input{
-    display: inline-flex;
+.search-form-cont input {
+  display: inline-flex;
+}
+
+.icon-menu-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.icon-menu-container span {
+  color: var(--teal);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.mobile-main-menu--container {
+  position: relative;
+}
+
+.mobile-main-menu {
+  height: 0;
+  overflow: hidden;
+  transition: height 1s ease;
+  -webkit-transition: height 1s ease;
+  position: absolute;
+  top: 0;
+  left: -1rem;
+  z-index: 1;
+  width: 100vw;
+  background-color: white;
+  padding: 0 1rem;
+}
+
+.mobile-main-menu.visible {
+  height: 10rem;
+  transition: height 1s ease;
+  -webkit-transition: height 1s ease;
+}
+
+.mobile-main-menu ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.mobile-main-menu ul li {
+  padding: 0.2rem 0;
+  border-bottom: 1px solid var(--gray);
+}
+
+.mobile-main-menu ul li:last-child {
+  border-bottom: 0;
 }

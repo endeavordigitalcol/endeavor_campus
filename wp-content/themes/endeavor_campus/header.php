@@ -77,6 +77,21 @@
                         ?>
                     </div>
                 </div>
+                <div class="col-2 text-right">
+                    <div class="icon-menu-container" id="icon-menu-mobile">
+                        <span class="icon-menu"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-main-menu--container">
+                <div class="mobile-main-menu">
+                    <?php
+                    wp_nav_menu(array(
+                        'theme_location'    => 'main',
+                        'depth'             => 1
+                    ));
+                    ?>
+                </div>
             </div>
         </section>
     </header>
