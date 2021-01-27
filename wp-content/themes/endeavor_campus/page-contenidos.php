@@ -53,53 +53,29 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
     </div>
 </section>
 
-<section class="special-content">
-    <div class="container">
-        <div class="row pt-5">
-            <div class="col">
-                <div class="sc-card">
-                    <div class="sc-card--header">
-                        <img src="https://via.placeholder.com/600x338" alt="">
-                    </div>
-                    <div class="sc-card--body">
-                        <h2 class="font-weight-bold">
-                            CONTENIDO ESPECIAL
-                        </h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis ut augue sit amet pretium. Mauris ullamcorper ipsum dolor, scelerisque posuere nibh finibus eu.
-                        </p>
-                        <a class="cat-button" href="#">Ver contenido</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?php
 
-<section class="special-resource">
-    <div class="container">
-        <div class="row pt-5 pb-5">
-            <div class="col">
-                <div class="sc-card sp-resource">
-                    <div class="sc-card--body">
-                        <h2 class="font-weight-bold text-white">
-                            RECURSO ESPECIAL
-                        </h2>
-                        <p class="text-white">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis ut augue sit amet pretium. Mauris ullamcorper ipsum dolor, scelerisque posuere nibh finibus eu.
-                        </p>
-                        <a class="sp-button" href="#">Ver contenido</a>
-                    </div>
-                    <div class="sc-card--header">
-                        <img src="https://via.placeholder.com/600x338" alt="">
-                        <div class="sp-resource--overlay"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+$featured_post = get_post(118);
+$featured_post_args = array(
+    'thumbnail'     => get_the_post_thumbnail($featured_post->ID),
+    'title'         => $featured_post->post_title,
+    'excerpt'       => $featured_post->post_excerpt,
+    'link'          => get_page_link($featured_post->ID)
+);
 
-<?php get_template_part('inc/partials/nl-suscription') ?>
-<?php get_template_part('inc/partials/popular-contents') ?>
-<?php get_footer() ?>
+get_template_part('inc/partials/special-content', null, $featured_post_args);
+
+$featured_resource = get_post(80);
+$featured_resource_args = array(
+    'thumbnail'     => get_the_post_thumbnail($featured_resource->ID),
+    'title'         => $featured_resource->post_title,
+    'excerpt'       => $featured_resource->post_excerpt,
+    'link'          => get_page_link($featured_resource->ID)
+);
+
+get_template_part('inc/partials/special-resource', null, $featured_resource_args);
+get_template_part('inc/partials/nl-suscription');
+get_template_part('inc/partials/popular-contents');
+get_footer(); 
+
+?>
