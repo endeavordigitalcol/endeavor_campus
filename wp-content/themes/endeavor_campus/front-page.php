@@ -92,7 +92,7 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
 
 <?php
 
-$featured_post = get_post(118);
+$featured_post = get_post(188);
 $featured_post_args = array(
     'thumbnail'     => get_the_post_thumbnail($featured_post->ID),
     'title'         => $featured_post->post_title,
