@@ -63,8 +63,6 @@ $featured_post_args = array(
     'link'          => get_post_permalink($featured_post->ID)
 );
 
-var_dump($featured_post_args['link']);
-
 get_template_part('inc/partials/special-content', null, $featured_post_args);
 
 $featured_resource = get_post(80);
