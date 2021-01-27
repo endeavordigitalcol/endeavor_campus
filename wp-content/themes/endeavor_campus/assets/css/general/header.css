@@ -186,3 +186,9 @@
 #first-screen svg{
   width: 50%;
 }
+
+@media (max-width: 600px){
+  #first-screen svg{
+    width: 80%;
+  }
+}
