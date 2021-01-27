@@ -57,5 +57,10 @@ $formats     = get_terms([
             </form>
         </div>
     </div>
+    <div class="row">
+        <div class="col-12 text-center">
+            <div id="spinner"></div>
+        </div>
+    </div>
     <?php get_template_part('inc/partials/filtered-contents') ?>
 </section>

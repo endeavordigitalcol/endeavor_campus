@@ -10,6 +10,7 @@
         };
 
         $.post(filter_obj.ajax_url, form).always(function (data) {
+            $("#spinner").show();
             show_contents(data);
         });
     })
@@ -17,10 +18,24 @@
     function show_contents(contents) {
         $('#filtered-contents').html('');
 
+        if(contents.length == 0){
+            html = `
+                <div class="col-12">
+                    <p class="text-center mt-4">
+                        No hay contenidos para la busqueda realizada
+                    <p>
+                </div>`;
+
+            $("#filtered-contents").append(html);
+            $("#spinner").hide();
+
+            return;
+        }
+
         contents.forEach((element, index) => {
             let d = new Date( element.date );
 
-            html = '<div class="col-md-4 p-3">';
+            html = '<div class="col-lg-4 col-md-6 p-3">';
             html += '<div class="lc-card h-100">';
             html += '<div class="lc-card--header">';
             html += '<a href=' + element.link + '>';
@@ -39,5 +54,7 @@
 
             $('#filtered-contents').append(html);
         })
+
+        $("#spinner").hide();
     }
 })(jQuery);
