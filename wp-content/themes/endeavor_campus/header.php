@@ -15,9 +15,11 @@
 </head>
 
 <body <?php body_class() ?>>
-
     <?php
-    if (is_single())
+    if(is_front_page())
+        get_template_part('inc/front/first-screen');
+
+    if(is_single())
         get_template_part('inc/partials/facebook-js-sdk');
     ?>
 

@@ -64,7 +64,9 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/LogoEndeavorCampusBlanco.png" alt="" class="footer-logo">
+                    <a href="<?php home_url('/')?>">
+                        <img src="<?php echo get_theme_file_uri() ?>/assets/images/LogoEndeavorCampusBlanco.png" alt="" class="footer-logo">
+                    </a>
                 </div>
             </div>
             <div class="row">

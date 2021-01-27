@@ -25,6 +25,8 @@
     $( window ).load(() => {
         same_height('.lc-card--body', 32);
         same_height('.pc-card' ,32);
+
+        $('#first-screen').fadeOut();
     });
 
     $( window ).scroll(() => {
