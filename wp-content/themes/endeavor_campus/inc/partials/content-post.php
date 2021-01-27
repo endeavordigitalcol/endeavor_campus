@@ -1,4 +1,4 @@
-<div class="col-md-4 p-3">
+<div class="col-lg-4 col-md-6 p-3">
     <div class="lc-card h-100">
         <div class="lc-card--header">
             <a href="<?php the_permalink() ?>">
