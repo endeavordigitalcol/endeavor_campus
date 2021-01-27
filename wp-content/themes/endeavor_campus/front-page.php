@@ -97,7 +97,7 @@ $featured_post_args = array(
     'thumbnail'     => get_the_post_thumbnail($featured_post->ID),
     'title'         => $featured_post->post_title,
     'excerpt'       => $featured_post->post_excerpt,
-    'link'          => get_page_link($featured_post->ID)
+    'link'          => get_post_permalink($featured_post->ID)
 );
 
 get_template_part('inc/partials/special-content', null, $featured_post_args);
@@ -107,7 +107,7 @@ $featured_resource_args = array(
     'thumbnail'     => get_the_post_thumbnail($featured_resource->ID),
     'title'         => $featured_resource->post_title,
     'excerpt'       => $featured_resource->post_excerpt,
-    'link'          => get_page_link($featured_resource->ID)
+    'link'          => get_post_permalink($featured_resource->ID)
 );
 
 get_template_part('inc/partials/special-resource', null, $featured_resource_args);
