@@ -4,7 +4,6 @@ get_header();
 
 $object = get_queried_object();
 $category = get_category( $object->term_id );
-var_dump($category);
 $banner = get_term_meta($category->term_id, 'img_banner', true);
 
 ?>
