@@ -225,10 +225,10 @@
     font-weight: bold;
 }
 
-@media (max-width: 650px){
+@media (max-width: 768px){
     .sc-card{
         grid-template-columns: 1fr;
-        grid-template-rows: 50% 50%;
+        grid-template-rows: 1fr 1fr;
     }
 
     .sp-resource .sc-card--header{
@@ -237,6 +237,11 @@
 
     .sp-resource .sc-card--body{
         order: 2;
+    }
+
+    .sc-card--body{
+        display: flex;
+        flex-flow: wrap;
     }
 }
 

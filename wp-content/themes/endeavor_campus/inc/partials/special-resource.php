@@ -13,7 +13,9 @@
                         <p class="text-white">
                             <?php echo $args['excerpt'] ?>
                         </p>
-                        <a class="sp-button" href="<?php echo $args['link'] ?>">Ver contenido <span class="icon-Right-arrow btn-icon"></span></a>
+                        <div>
+                            <a class="sp-button" href="<?php echo $args['link'] ?>">Ver contenido <span class="icon-Right-arrow btn-icon"></span></a>
+                        </div>
                     </div>
                     <div class="sc-card--header">
                         <?php echo $args['thumbnail'] ?>

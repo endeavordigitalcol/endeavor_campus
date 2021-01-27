@@ -16,12 +16,14 @@
                         <p>
                             <?php echo $args['excerpt'] ?>
                         </p>
-                        <a class="cat-button" 
-                            href="<?php echo $args['link'] ?>">
-                                Ver contenido 
-                                <span class="icon-Right-arrow btn-icon">
-                                </span>
-                        </a>
+                        <div>
+                            <a class="cat-button" 
+                                href="<?php echo $args['link'] ?>">
+                                    Ver contenido 
+                                    <span class="icon-Right-arrow btn-icon">
+                                    </span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
