@@ -39,7 +39,7 @@ if (have_posts()) {
                             the_post_thumbnail();
                         } else {
                         ?>
-                            <img src="https://via.placeholder.com/1140x641" alt="">
+                            <img src="<?php get_theme_file_uri('assets/images/BannerGenericoPosts.png') ?>" alt="">
                         <?php } ?>
                     </picture>
                 </div>
