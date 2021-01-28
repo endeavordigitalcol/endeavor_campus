@@ -7,7 +7,7 @@
                     the_post_thumbnail('post-thumbnail', array('class' => 'w-100'));
                 } else {
                 ?>
-                    <img class="w-100" src="<?php get_theme_file_uri('assets/images/BannerGenericoPosts.png') ?>" alt="">
+                    <img class="w-100" src="<?php echo get_theme_file_uri('/assets/images/BannerGenericoPosts.png') ?>" alt="">
                 <?php
                 }
                 ?>
@@ -45,4 +45,4 @@
             </div>
         </div>
     </div>
-</div> 
+</div>

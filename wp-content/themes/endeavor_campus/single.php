@@ -39,7 +39,7 @@ if (have_posts()) {
                             the_post_thumbnail();
                         } else {
                         ?>
-                            <img src="<?php get_theme_file_uri('assets/images/BannerGenericoPosts.png') ?>" alt="">
+                            <img src="<?php echo get_theme_file_uri('/assets/images/BannerGenericoPosts.png') ?>" alt="">
                         <?php } ?>
                     </picture>
                 </div>
@@ -67,7 +67,7 @@ if (have_posts()) {
                     <div class="np-posts-container mt-4 d-none d-md-block">
                         <?php if (!empty($prev_post)) { ?>
                             <div class="np-posts--prev">
-                                <span class="icon-arrow-left"></span>                                
+                                <span class="icon-arrow-left"></span>
                                 <?php previous_post_link('%link', 'Artículo anterior') ?>
                             </div>
                         <?php } ?>
