@@ -125,9 +125,6 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
                 <h1><?php _e('TALLERES', 'campus') ?></h1>
             </div>
             <div class="col-lg-10">
-                <p class="mt-4">
-                    MOMENTO es una iniciativa de Endeavor Campus que busca brindar herramientas y contenidos de alto impacto a todos los emprendedores que hoy se enfrentan a nuevos y grandes retos. En este especial reuniremos el conocimiento y la experiencia de expertos de nuestra Red y los mejores consejos, para que los emprendedores del país puedan, hoy más que nunca, transformar y dinamizar nuestra economía y beneficiar a la sociedad.
-                </p>
             </div>
         </div>
         <div class="row">
