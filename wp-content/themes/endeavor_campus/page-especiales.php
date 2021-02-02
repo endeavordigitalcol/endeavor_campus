@@ -143,4 +143,7 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
     </div>
 </section>
 
-<?php get_footer() ?>
+<?php
+    get_template_part('inc/partials/nl-suscription');
+    get_footer() 
+?>
