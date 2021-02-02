@@ -76,7 +76,7 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
             </div>
             <div class="col-lg-10">
                 <p class="mt-4">
-                    Conéctate desde cualquier lugar con las historias de los Emprendedores Endeavor que están transformando miles de vidas en todo el mundo. Descubre cómo han logrado impactar la economía de los países donde operan sus compañías y escucha sus reflexiones y consejos sobre el arte de crear emprendimientos de alto impacto.
+                    Una iniciativa regional de Dell Technologies y Endeavor que busca acercar a los emprendedores y dueños de pymes de toda la región a las historias de éxito y los conocimientos de emprendedores de alto impacto para que logren escalar sus empresas.
                 </p>
             </div>
         </div>
