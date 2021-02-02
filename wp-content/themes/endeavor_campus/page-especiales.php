@@ -17,7 +17,7 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
             </div>
             <div class="col-lg-10">
                 <p class="mt-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat posuere porta. Duis ac est dapibus, posuere velit in, scelerisque magna. Duis gravida, nisi nec vehicula dapibus, magna nibh fringilla sapien, at pellentesque sapien mi vitae metus. Suspendisse vulputate dui ligula. Pellentesque et velit at augue iaculis dignissim. Etiam sed diam justo.
+                    Conéctate desde cualquier lugar con las historias de los Emprendedores Endeavor que están transformando miles de vidas en todo el mundo. Descubre cómo han logrado impactar la economía de los países donde operan sus compañías y escucha sus reflexiones y consejos sobre el arte de crear emprendimientos de alto impacto.
                 </p>
             </div>
         </div>
@@ -68,6 +68,31 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
     </div>
 </section>
 
+<section id="escala">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h1><?php _e('ESCALA', 'campus') ?></h1>
+            </div>
+            <div class="col-lg-10">
+                <p class="mt-4">
+                    Conéctate desde cualquier lugar con las historias de los Emprendedores Endeavor que están transformando miles de vidas en todo el mundo. Descubre cómo han logrado impactar la economía de los países donde operan sus compañías y escucha sus reflexiones y consejos sobre el arte de crear emprendimientos de alto impacto.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <?php
+            $args = array(
+                'posts_per_page'    => 6,
+                'tag'               => 'Escala'
+            );
+
+            get_template_part('process/special-contents-query', null, $args);
+            ?>
+        </div>
+    </div>
+</section>
+
 <section id="momento">
     <div class="container mt-5">
         <div class="row">
@@ -85,6 +110,31 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
             $args = array(
                 'posts_per_page'    => 3,
                 'tag'               => 'momento,momento-endeavor',
+            );
+
+            get_template_part('process/special-contents-query', null, $args);
+            ?>
+        </div>
+    </div>
+</section>
+
+<section id="talleres">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h1><?php _e('TALLERES', 'campus') ?></h1>
+            </div>
+            <div class="col-lg-10">
+                <p class="mt-4">
+                    MOMENTO es una iniciativa de Endeavor Campus que busca brindar herramientas y contenidos de alto impacto a todos los emprendedores que hoy se enfrentan a nuevos y grandes retos. En este especial reuniremos el conocimiento y la experiencia de expertos de nuestra Red y los mejores consejos, para que los emprendedores del país puedan, hoy más que nunca, transformar y dinamizar nuestra economía y beneficiar a la sociedad.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <?php
+            $args = array(
+                'posts_per_page'    => 3,
+                'tag'               => 'taller',
             );
 
             get_template_part('process/special-contents-query', null, $args);
