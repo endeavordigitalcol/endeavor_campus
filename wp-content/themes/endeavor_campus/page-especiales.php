@@ -76,7 +76,7 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
             </div>
             <div class="col-lg-10">
                 <p class="mt-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat posuere porta. Duis ac est dapibus, posuere velit in, scelerisque magna. Duis gravida, nisi nec vehicula dapibus, magna nibh fringilla sapien, at pellentesque sapien mi vitae metus. Suspendisse vulputate dui ligula. Pellentesque et velit at augue iaculis dignissim. Etiam sed diam justo.
+                    MOMENTO es una iniciativa de Endeavor Campus que busca brindar herramientas y contenidos de alto impacto a todos los emprendedores que hoy se enfrentan a nuevos y grandes retos. En este especial reuniremos el conocimiento y la experiencia de expertos de nuestra Red y los mejores consejos, para que los emprendedores del país puedan, hoy más que nunca, transformar y dinamizar nuestra economía y beneficiar a la sociedad.
                 </p>
             </div>
         </div>
