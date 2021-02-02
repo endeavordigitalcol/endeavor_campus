@@ -34,7 +34,7 @@
                         </div>
                         <div class="col-md-4">
                             <h5 class="text-white font-weight-bold">
-                                Quíenes somos
+                                Quiénes somos
                             </h5>
                             <ul class="footer-list">
                                 <li>
