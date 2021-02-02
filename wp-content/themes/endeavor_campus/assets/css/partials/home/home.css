@@ -191,25 +191,6 @@
     opacity: .7;
 }
 
-.nl-susc{
-    background-color: var(--light-teal);
-}
-
-.nl-form button{
-    border: 0;
-    background: var(--dark-navy);
-    margin-top: 1rem;
-    color: white;
-    padding: .5rem 1.5rem;
-    border-radius: .3rem;
-    transition: .5s;
-}
-
-.nl-form button:hover{
-    font-weight: bolder;
-    transition: .5s;
-}
-
 .pc-card{
     background: white;
     padding: 1rem;

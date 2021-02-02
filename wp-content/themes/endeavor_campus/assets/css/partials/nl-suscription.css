@@ -1,0 +1,16 @@
+.nl-susc{
+    background-color: var(--light-teal);
+}
+
+@media (max-width: 989px){
+    #suscription-form{
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 425px){
+    #suscription-form .bricks-form__field{
+        display: block !important;
+        width: 100% !important;
+    }
+}

@@ -9,20 +9,12 @@
                     Recibirás consejos, invitaciones a talleres y herramientas creadas con la experiencia de la Red Endeavor.
                 </p>
             </div>
-            <div class="col-lg-6">
-                <form class="nl-form" action="">
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-sm-6 pt-3">
-                                <input type="text" class="form-control" name="name" id="" placeholder="Nombre y apellido">
-                            </div>
-                            <div class="col-sm-6 pt-3">
-                                <input type="email" class="form-control" name="email" id="" placeholder="Correo electrónico">
-                            </div>
-                        </div>
-                        <button type="submit">ENVIAR</button>
-                    </div>
-                </form>
+            <div class="col-lg-6" id="suscription-form">
+                <div role="main" id="suscripcion-campus-2-0-fa7380f4e5f287c88524"></div>
+                <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
+                <script type="text/javascript">
+                    new RDStationForms('suscripcion-campus-2-0-fa7380f4e5f287c88524', 'UA-65225725-1').createForm();
+                </script>
             </div>
         </div>
     </div>
