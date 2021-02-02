@@ -28,6 +28,10 @@
             return;
         }
         $(data).each((i, e) => {
+            if(e.thumbnail.length == 0){
+                e.thumbnail = `<img width="3023" height="1700" src="${filter_obj.file_uri}/assets/images/BannerGenericoPosts.png" class="w-100 wp-post-image" alt="" loading="lazy"></img>`;
+            }
+
             html = `
                 <div class="col-lg-4 col-md-6 p-3">
                     <div class="lc-card h-100">
