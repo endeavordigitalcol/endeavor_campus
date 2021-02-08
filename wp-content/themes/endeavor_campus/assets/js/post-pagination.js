@@ -1,5 +1,7 @@
 (function ($) {
     $('#more-contents-button').on('click', () => {
+        $("#spinner").show();
+        
         const form = {
             action: 'load_more_contents',
             catId: $('#more-contents-button').data('id'),
@@ -7,7 +9,6 @@
         }
 
         $.post(filter_obj.ajax_url, form).always(function (data) {
-            $("#spinner").show();
             $('#more-contents-button').data('page', form.page + 1);
             showPosts(data);
         });
