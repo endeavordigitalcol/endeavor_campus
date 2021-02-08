@@ -139,7 +139,7 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
         <div class="row">
             <div class="col-12">
                 <h1 class="special-content-title">
-                    <a href="<?php echo home_url('tag/talleres-endeavor-facebook') ?>">
+                    <a href="<?php echo home_url('tag/impulsa-con-facebook') ?>">
                         <?php _e('ENDEAVOR Y FACEBOOK', 'campus') ?> 
                         <span class="icon-Right-arrow btn-icon"></span>
                     </a>
