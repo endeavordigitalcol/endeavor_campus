@@ -4,12 +4,12 @@
             <div class="col">
                 <div class="sc-card sp-resource">
                     <div class="sc-card--body">
-                        <h2 class="font-weight-bold text-white">
+                        <h2 class="text-white">
                             <?php _e('RECURSO ESPECIAL', 'campus') ?>
                         </h2>
-                        <h6 class="text-white text-uppercase">
+                        <h4 class="text-white font-weight-bold">
                             <?php echo $args['title'] ?>
-                        </h6>
+                        </h4>
                         <p class="text-white">
                             <?php echo $args['excerpt'] ?>
                         </p>

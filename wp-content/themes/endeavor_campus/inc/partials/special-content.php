@@ -7,12 +7,12 @@
                         <?php echo $args['thumbnail'] ?>
                     </div>
                     <div class="sc-card--body">
-                        <h2 class="font-weight-bold">
+                        <h2>
                             <?php _e('CONTENIDO ESPECIAL', 'campus') ?>
                         </h2>
-                        <h6 class="text-uppercase">
+                        <h4 class="font-weight-bold">
                             <?php echo $args['title'] ?>
-                        </h6>
+                        </h4>
                         <p>
                             <?php echo $args['excerpt'] ?>
                         </p>
