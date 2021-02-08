@@ -23,8 +23,11 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
         </div>
         <div class="row" id="think-big">
             <div class="col-12">
-                <h2>
-                    <?php _e('Think Big', 'campus') ?>
+                <h2 class="special-content-title">
+                    <a href="<?php echo home_url('tag/think-big') ?>">
+                        <?php _e('Think Big', 'campus') ?> 
+                        <span class="icon-Right-arrow btn-icon"></span>
+                    </a>
                 </h2>
             </div>
             <?php
@@ -45,8 +48,11 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
         </div>
         <div class="row" id="tour-endeavor">
             <div class="col-12">
-                <h2>
-                    <?php _e('Tour Endeavor', 'campus') ?>
+                <h2 class="special-content-title">
+                    <a href="<?php echo home_url('tag/tour-endeavor') ?>">
+                        <?php _e('Tour Endeavor', 'campus') ?> 
+                        <span class="icon-Right-arrow btn-icon"></span>
+                    </a>
                 </h2>
             </div>
             <?php
@@ -72,7 +78,12 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
     <div class="container mt-5">
         <div class="row">
             <div class="col-12">
-                <h1><?php _e('ESCALA', 'campus') ?></h1>
+                <h1 class="special-content-title">
+                    <a href="<?php echo home_url('tag/escala') ?>">
+                        <?php _e('ESCALA', 'campus') ?> 
+                        <span class="icon-Right-arrow btn-icon"></span>
+                    </a>
+                </h1>
             </div>
             <div class="col-lg-10">
                 <p class="mt-4">
@@ -97,7 +108,12 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
     <div class="container mt-5">
         <div class="row">
             <div class="col-12">
-                <h1><?php _e('MOMENTO', 'campus') ?></h1>
+                <h1 class="special-content-title">
+                    <a href="<?php echo home_url('tag/momento-endeavor') ?>">
+                        <?php _e('MOMENTO', 'campus') ?> 
+                        <span class="icon-Right-arrow btn-icon"></span>
+                    </a>
+                </h1>
             </div>
             <div class="col-lg-10">
                 <p class="mt-4">
@@ -122,7 +138,12 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
     <div class="container mt-5">
         <div class="row">
             <div class="col-12">
-                <h1><?php _e('TALLERES', 'campus') ?></h1>
+                <h1 class="special-content-title">
+                    <a href="<?php echo home_url('tag/talleres-endeavor-facebook') ?>">
+                        <?php _e('ENDEAVOR Y FACEBOOK', 'campus') ?> 
+                        <span class="icon-Right-arrow btn-icon"></span>
+                    </a>
+                </h1>
             </div>
             <div class="col-lg-10">
             </div>
@@ -141,6 +162,6 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
 </section>
 
 <?php
-    get_template_part('inc/partials/nl-suscription');
-    get_footer() 
+get_template_part('inc/partials/nl-suscription');
+get_footer()
 ?>

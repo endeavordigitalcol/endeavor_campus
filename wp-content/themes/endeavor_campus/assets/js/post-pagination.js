@@ -4,7 +4,7 @@
         
         const form = {
             action: 'load_more_contents',
-            catId: $('#more-contents-button').data('id'),
+            catId: $('#more-contents-button').data('id')  || '',
             page: $('#more-contents-button').data('page')
         }
 

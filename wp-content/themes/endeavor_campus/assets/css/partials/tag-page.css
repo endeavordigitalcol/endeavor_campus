@@ -1,0 +1,9 @@
+.title-hero{
+    padding: 4rem 0;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+.title-hero h1{
+    margin: 0;
+}
