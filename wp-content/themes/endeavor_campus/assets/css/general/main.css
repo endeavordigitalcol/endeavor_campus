@@ -22,10 +22,13 @@ p, h1, h2, h3, h4, h5, h6, ul{
 
 a {
     color: var(--teal);
+    transition: .5s;
 }
 
 a:hover {
     color: var(--light-teal);
+    text-decoration: none;
+    transition: .5s;
 }
 
 .color-teal{

@@ -1,0 +1,32 @@
+.sidebar-content .sidebar-title:first-child{
+    margin-top: 0;
+}
+
+.sidebar-content ul{
+    list-style-type: none;
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.sidebar-content ul li{
+    margin-bottom: 0.2rem;
+    color: var(--gray);
+    font-family: "Whitney Book";
+    transition: .5s;
+}
+
+.sidebar-content a{
+    color: var(--gray);
+}
+
+.sidebar-content li:hover,
+.sidebar-content a:hover{
+    color: var(--light-teal);
+    transition: .5s;
+}
+
+.sidebar-content h4{
+    font-weight: normal;
+    color: var(--teal);
+    text-transform: uppercase;
+}

@@ -62,7 +62,7 @@ if (have_posts()) {
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-9 mt-5">
+                <div class="col-lg-9 post-content mt-5">
                     <?php the_content() ?>
                     <div class="np-posts-container mt-4 d-none d-md-block">
                         <?php if (!empty($prev_post)) { ?>
@@ -79,6 +79,10 @@ if (have_posts()) {
                         <?php } ?>
                     </div>
                 </div>
+                <div class="col-lg-3 mt-5 d-none d-lg-block">
+                    <?php get_sidebar() ?>
+                </div>
+            </div>
             </div>
         </section>
 
