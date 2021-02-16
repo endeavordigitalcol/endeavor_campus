@@ -87,6 +87,18 @@ iframe{
     border-top: 1px solid var(--gray);
 }
 
+.btn-primary{
+    background-color: var(--teal);
+    border-color: var(--teal);
+}
+
+.btn-primary:hover, .btn-primary:focus{
+    background-color: transparent;
+    border-color: var(--teal);
+    color: var(--teal);
+    box-shadow: none;
+}
+
 @media (min-width: 768px){
     .wp-block-quote {
         width: 90%;

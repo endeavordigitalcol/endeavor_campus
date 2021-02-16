@@ -9,7 +9,7 @@
 }
 
 .sidebar-content ul li{
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.75rem;
     color: var(--gray);
     font-family: "Whitney Book";
     transition: .5s;

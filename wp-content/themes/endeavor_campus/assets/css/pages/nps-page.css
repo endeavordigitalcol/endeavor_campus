@@ -1,0 +1,25 @@
+#nps-form [type=radio]{
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+#nps-form .form-check-radio label{
+    padding: .5rem 1rem;
+    border: 1px solid var(--teal);
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+#nps-form [type=radio]:checked + label{
+    background-color: var(--teal);
+    color: white;
+}
+
+.form-check-format{
+    padding: .5rem 1rem;
+    border: 1px solid var(--teal);
+    margin: 1rem;
+    border-radius: .2rem;
+}
