@@ -1,0 +1,22 @@
+#aus-page p,
+#aus-page a{
+    font-family: "Whitney Book";
+}
+
+.aus-subtitle{
+    font-family: "Whitney Book";
+    font-style: italic;
+    margin: 0;
+}
+
+.aus-title{
+    color: var(--dark-teal);
+    font-weight: bolder;
+}
+
+.aus-btn{
+    background-color: var(--orange);
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: .2rem;
+}
