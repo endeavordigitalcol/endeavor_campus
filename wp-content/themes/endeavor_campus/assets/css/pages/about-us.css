@@ -99,6 +99,11 @@
   box-shadow: 3px 3px 5px 0px #919191;
 }
 
+.content-factory{
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--gray);
+}
+
 .content-factory--item {
   display: grid;
   grid-template-rows: 1fr;
