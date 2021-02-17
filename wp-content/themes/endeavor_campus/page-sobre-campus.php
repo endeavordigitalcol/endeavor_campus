@@ -63,7 +63,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-5 justify-content-center">
+            <div id="campus-formats" class="row mt-5 justify-content-center">
                 <div class="col-lg-8 col-md-10">
                     <h2 class="aus-title text-center">¿Qué tipos de<br>contenidos creamos?</h2>
                     <p class="text-center mt-4">
@@ -86,26 +86,46 @@
                         </li>
                         <li>
                             <div class="aus-formats--card">
-                                <p>
-                                    Lives, cápsulas y series web
-                                </p>
+                                <div class="aus-formats--card-icon">
+                                    <span class="icon-Search"></span>
+                                </div>
+                                <div class="aus-formats--card-text">
+                                    <p>
+                                        Lives, cápsulas y series web
+                                    </p>
+                                </div>
                             </div>
                         </li>
                         <li>
                             <div class="aus-formats--card">
-                                <p>
-                                    Especiales web y descargables
-                                </p>
+                                <div class="aus-formats--card-icon">
+                                    <span class="icon-Search"></span>
+                                </div>
+                                <div class="aus-formats--card-text">
+                                    <p>
+                                        Especiales web y descargables
+                                    </p>
+                                </div>
                             </div>
                         </li>
                         <li>
                             <div class="aus-formats--card">
-                                <p>
-                                    Podcast
-                                </p>
+                                <div class="aus-formats--card-icon">
+                                    <span class="icon-Search"></span>
+                                </div>
+                                <div class="aus-formats--card-text">
+                                    <p>
+                                        Podcast
+                                    </p>
+                                </div>
                             </div>
                         </li>
                     </ul>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    
                 </div>
             </div>
         </div>
