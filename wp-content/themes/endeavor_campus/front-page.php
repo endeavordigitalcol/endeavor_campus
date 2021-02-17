@@ -82,9 +82,7 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
         </div>
         <div class="row pt-5">
             <div class="col">
-                <div class="swiper-container swiper-cat-home">
-                    <?php get_template_part('inc/partials/slider-categories'); ?>
-                </div>
+                <?php get_template_part('inc/partials/slider-categories'); ?>
             </div>
         </div>
     </div>
@@ -113,6 +111,6 @@ $featured_resource_args = array(
 get_template_part('inc/partials/special-resource', null, $featured_resource_args);
 get_template_part('inc/partials/nl-suscription');
 get_template_part('inc/partials/popular-contents');
-get_footer(); 
+get_footer();
 
 ?>

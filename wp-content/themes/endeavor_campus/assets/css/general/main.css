@@ -47,6 +47,10 @@ a:hover {
     color: var(--dark-navy);
 }
 
+.color-dark-teal{
+    color: var(--dark-teal);
+}
+
 .bg-lgray{
     background: var(--light-gray);
 }

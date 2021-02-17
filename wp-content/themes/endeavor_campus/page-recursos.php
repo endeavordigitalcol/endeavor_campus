@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-get_header(); 
+get_header();
 $banner_args = array(
     'desktop-banner' => 'https://endeavorcampus.com/wp-content/uploads/2021/02/Banner_Recursos.png',
     'mobile-banner'  => 'https://endeavorcampus.com/wp-content/uploads/2021/02/Banner_Recursos_Movil.png'
@@ -44,13 +44,7 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
         <div id="more-contents" class="row"></div>
         <div class="row pt-4">
             <div class="col text-center">
-                <a 
-                    id="more-contents-button"
-                    class="cat-button"
-                    data-category="<?php echo $args['cat'][0]->slug ?>"
-                    data-id="<?php echo $args['cat'][0]->term_id ?>"
-                    data-page="1"
-                >
+                <a id="more-contents-button" class="cat-button" data-category="<?php echo $args['cat'][0]->slug ?>" data-id="<?php echo $args['cat'][0]->term_id ?>" data-page="1">
                     Cargar más contenidos
                 </a>
                 <hr class="div-bar mt-4">
@@ -70,9 +64,7 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
         </div>
         <div class="row pt-4">
             <div class="col">
-                <div class="swiper-container swiper-cat-home">
-                    <?php get_template_part('inc/partials/slider-categories') ?>
-                </div>
+                <?php get_template_part('inc/partials/slider-categories') ?>
             </div>
         </div>
     </div>

@@ -94,9 +94,7 @@ $banner = get_term_meta($category->term_id, 'img_banner', true);
         </div>
         <div class="row pt-4">
             <div class="col">
-                <div class="swiper-container swiper-cat-home">
-                    <?php get_template_part('inc/partials/slider-categories') ?>
-                </div>
+                <?php get_template_part('inc/partials/slider-categories') ?>
             </div>
         </div>
     </div>

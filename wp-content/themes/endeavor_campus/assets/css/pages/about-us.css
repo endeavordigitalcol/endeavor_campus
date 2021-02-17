@@ -1,6 +1,11 @@
 #aus-page p,
 #aus-page a{
     font-family: "Whitney Book";
+    font-size: 1.2rem;
+}
+
+#aus-page h1{
+    font-size: 3rem;
 }
 
 .aus-subtitle{
@@ -20,3 +25,65 @@
     padding: .5rem 1rem;
     border-radius: .2rem;
 }
+
+.aus-btn:hover{
+    border: 1px solid var(--orange);
+    background-color: transparent;
+    color: var(--orange);
+}
+
+.aus-links{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.aus-links li{
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.aus-links li a{
+    display: inline-block;
+    min-width: 8.5rem;
+    background-color: var(--light-teal);
+    padding: .2rem 1rem;
+    color: white;
+    text-transform: uppercase;
+    border-radius: .2rem;
+}
+
+.aus-links li a:hover{
+    background-color: teal;
+}
+
+.aus-formats-list{
+    padding: 0;
+    list-style: none;
+}
+
+.aus-formats-list li{
+    display: inline-block;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.aus-formats--card-icon{
+    background-color: var(--orange);
+    display: inline-flex;
+    padding: 2rem;
+    border-radius: 50%;
+}
+
+.aus-formats--card-icon span{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.aus-formats--card p{
+    margin-top: 1.5rem;
+    display: inline-block;
+    background-color: white;
+    font-weight: bold;
+}
+
