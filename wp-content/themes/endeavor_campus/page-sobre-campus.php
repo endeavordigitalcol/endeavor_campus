@@ -124,8 +124,90 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col">
-                    
+                <div class="col-12">
+                    <h2 class="aus-title text-center">¿Cómo creamos<br>nuestros contenidos?</h2>
+                </div>
+                <div class="col-12 mt-5">
+                    <div class="content-factory">
+                        <div class="content-factory--item">
+                            <div class="content-factory--item-image">
+                                <img src="<?php echo get_theme_file_uri() ?>/assets/images/about-us/Statistics.svg" alt="">
+                            </div>
+                            <div class="content-factory--item-connector">
+                                <img src="<?php echo get_theme_file_uri() ?>/assets/images/about-us/Connector.svg" alt="">
+                            </div>
+                            <div class="content-factory--item-text">
+                                <p>
+                                    Identificamos cuáñes son los mayores retos de los emprendedores.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-factory--item fl-right">
+                            <div class="content-factory--item-text">
+                                <p>
+                                    Buscamos aliados que quieran sumarse a nuestra misión de democratizar el conocimiento y apoyar a los emprendedores.
+                                </p>
+                            </div>
+                            <div class="content-factory--item-connector">
+                                <img src="<?php echo get_theme_file_uri() ?>/assets/images/about-us/Connector.svg" alt="">
+                            </div>
+                            <div class="content-factory--item-image">
+                                <img src="<?php echo get_theme_file_uri() ?>/assets/images/about-us/Search.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content-factory--item">
+                            <div class="content-factory--item-image">
+                                <img src="<?php echo get_theme_file_uri() ?>/assets/images/about-us/Comunication.svg" alt="">
+                            </div>
+                            <div class="content-factory--item-connector">
+                                <img src="<?php echo get_theme_file_uri() ?>/assets/images/about-us/Connector.svg" alt="">
+                            </div>
+                            <div class="content-factory--item-text">
+                                <p>
+                                    Acudimos al conocimiento de un Emprendedor Endeavor, mentor, aliado o lider de opinión para obtener la mayor información del tema.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-factory--item fl-right">
+                            <div class="content-factory--item-text">
+                                <p>
+                                    Transformamos dicho conocimiento en contenidos o herramientas a la medida de los desafíos de los emprendedores.
+                                </p>
+                            </div>
+                            <div class="content-factory--item-connector">
+                                <img src="<?php echo get_theme_file_uri() ?>/assets/images/about-us/Connector.svg" alt="">
+                            </div>
+                            <div class="content-factory--item-image">
+                                <img src="<?php echo get_theme_file_uri() ?>/assets/images/about-us/Posting.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content-factory--item">
+                            <div class="content-factory--item-image">
+                                <img src="<?php echo get_theme_file_uri() ?>/assets/images/about-us/Analize.svg" alt="">
+                            </div>
+                            <div class="content-factory--item-connector">
+                                <img src="<?php echo get_theme_file_uri() ?>/assets/images/about-us/Connector.svg" alt="">
+                            </div>
+                            <div class="content-factory--item-text">
+                                <p>
+                                    Cargamos los contenidos a Endeavor Campus, una plataforma de alcance regional.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-factory--item fl-right">
+                            <div class="content-factory--item-text">
+                                <p>
+                                    Los emprendedores encontrarán contenidos útiles, en varios formatos y sobre todos los temas necesarios para escalar sus negocios.
+                                </p>
+                            </div>
+                            <div class="content-factory--item-connector">
+                                <img src="<?php echo get_theme_file_uri() ?>/assets/images/about-us/Connector.svg" alt="">
+                            </div>
+                            <div class="content-factory--item-image">
+                                <img src="<?php echo get_theme_file_uri() ?>/assets/images/about-us/Feedback.svg" alt="">
+                            </div>
+                        </div>                         
+                    </div>
                 </div>
             </div>
         </div>
