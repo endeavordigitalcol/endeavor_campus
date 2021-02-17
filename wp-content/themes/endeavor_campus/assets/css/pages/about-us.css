@@ -57,6 +57,13 @@
   background-color: teal;
 }
 
+#campus-formats{
+  background-image: url(https://endeavorcampus.com/wp-content/uploads/2021/02/Bg-formats.png);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 2px 0px 15px 3px var(--gray);
+}
+
 .aus-formats-list,
 .figures-list {
   padding: 0;
@@ -164,5 +171,11 @@
 
   .content-factory--item.fl-right {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1024px){
+  .desktop-height{
+    min-height: 100vh;
   }
 }
