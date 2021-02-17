@@ -206,8 +206,47 @@
                             <div class="content-factory--item-image">
                                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/about-us/Feedback.svg" alt="">
                             </div>
-                        </div>                         
+                        </div>
                     </div>
+                </div>
+            </div>
+            <div class="row mt-5 justify-content-center">
+                <div class="col-lg-8 col-md-10">
+                    <h2 class="aus-title text-center">¡No paramos de crecer!</h2>
+                </div>
+                <div class="mt-5 col-12">
+                    <ul class="figures-list text-center">
+                        <li>
+                            <div class="figure-item">
+                                <p class="figure-number">
+                                    +885k
+                                </p>
+                                <p class="figure-caption">
+                                    Visitas al sitio en 2020
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="figure-item">
+                                <p class="figure-number">
+                                    +237k
+                                </p>
+                                <p class="figure-caption">
+                                    Usuarios en 2020
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="figure-item">
+                                <p class="figure-number">
+                                    +250
+                                </p>
+                                <p class="figure-caption">
+                                    Contenidos
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
