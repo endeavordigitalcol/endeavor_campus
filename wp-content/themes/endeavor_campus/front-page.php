@@ -2,8 +2,8 @@
 
 get_header();
 $banner_args = array(
-    'desktop-banner' => 'https://endeavorcampus.com/wp-content/uploads/2021/01/banner_Banner-Home.png',
-    'mobile-banner'  => 'https://endeavorcampus.com/wp-content/uploads/2021/01/banner_Banner-Home-Mobile.png'
+    'desktop-banner' => 'https://endeavorcampus.com/wp-content/uploads/2021/02/banner_Banner-Home.png',
+    'mobile-banner'  => 'https://endeavorcampus.com/wp-content/uploads/2021/02/banner_Banner-home-Mobile.png'
 );
 get_template_part('inc/partials/main-banners', null, $banner_args);
 
