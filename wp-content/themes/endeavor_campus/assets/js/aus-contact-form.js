@@ -9,6 +9,10 @@
             msg:    $('#mensaje').val()
         }
 
-        $.post(filter_obj.ajax_url, form).always(function (data){});
+        $.post(filter_obj.ajax_url, form).always(function (data){
+            if(data){
+                alert('Gracias por escribirnos, nos contactaremos con usted lo más pronto posible');
+            }
+        });
     });
 })(jQuery);
