@@ -9,8 +9,6 @@
             msg:    $('#mensaje').val()
         }
 
-        $.post(filter_obj.ajax_url, form).always(function (data) {
-            console.log(data);
-        });
+        $.post(filter_obj.ajax_url, form).always(function (data){});
     });
 })(jQuery);
