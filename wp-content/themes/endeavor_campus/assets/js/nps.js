@@ -33,6 +33,8 @@
         $.post(filter_obj.ajax_url, form).always(function (data){
             if(data){
                 alert('¡Gracias por su respuesta!');
+
+                window.location.replace(filter_obj.home_url);
             }
         });
     })

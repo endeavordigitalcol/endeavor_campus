@@ -50,7 +50,7 @@
                         </div>
                         <div class="form-check form-check-inline form-check-format">
                             <input type="checkbox" class="form-check-input" id="format-article" value="format-interview" name="nps-format">
-                            <label for="format-interview" class="form-check-label"><?php _e('Artículo', 'campus') ?></label>
+                            <label for="format-interview" class="form-check-label"><?php _e('Entrevista', 'campus') ?></label>
                         </div>
                         <div class="form-check form-check-inline form-check-format">
                             <input type="checkbox" class="form-check-input" id="format-article" value="format-guide" name="nps-format">
