@@ -27,22 +27,15 @@ function ca_enqueue()
     wp_register_script('ca_filter_content', $uri . '/assets/js/filter-content.js', [], $ver, true);
     wp_register_script('ca_post_pagination', $uri . '/assets/js/post-pagination.js', [], $ver, true);
     wp_register_script('ca_nps', $uri . '/assets/js/nps.js', [], $ver, true);
+    wp_register_script('ca_contact_form', $uri . '/assets/js/aus-contact-form.js', [], $ver, true);
 
     wp_enqueue_script('jquery');
     wp_enqueue_script('ca_swiper_js');
     wp_enqueue_script('ca_js');
 
-    wp_localize_script(
-        'ca_filter_content',
-        'filter_obj',
-        $arr_post
-    );
-
-    wp_localize_script(
-        'ca_post_pagination',
-        'filter_obj',
-        $arr_post
-    );
+    ca_localize_script('ca_filter_content', $arr_post);
+    ca_localize_script('ca_post_pagination', $arr_post);
+    ca_localize_script('ca_contact_form', $arr_post);
 
     if (is_page('contenidos'))
         wp_enqueue_script('ca_filter_content');
@@ -52,4 +45,15 @@ function ca_enqueue()
 
     if (is_page('nps-campus'))
         wp_enqueue_script('ca_nps');
+
+    if (is_page('sobre-campus'))
+        wp_enqueue_script('ca_contact_form');
+}
+
+function ca_localize_script($script, $params){
+    wp_localize_script(
+        $script,
+        'filter_obj',
+        $params
+    );
 }

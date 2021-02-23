@@ -16,7 +16,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 mt-4 mb-4">
                     <div class="aus-description-img">
                         <img src="<?php echo get_theme_file_uri() ?>/assets/images/about-us/Ilustracion_1.svg" alt="">
                     </div>
@@ -56,7 +56,7 @@
         <div id="campus-formats">
             <div class="container">
                 <div id="formatos" class="row mt-5 justify-content-center align-content-center desktop-height">
-                    <div class="col-lg-8 col-md-10">
+                    <div class="col-lg-8 col-md-10 pt-3">
                         <h2 class="aus-title text-center">¿Qué tipos de<br>contenidos creamos?</h2>
                         <p class="text-center mt-4">
                             <b>En Endeavor Campus podrás encontrar contenidos en diversos formatos:</b>
@@ -159,7 +159,7 @@
         <div class="container">
             <div id="contacto" class="row pt-5 pb-5">
                 <div class="col-lg-4">
-                    <h2 class="color-teal">
+                    <h2 class="color-teal font-weight-bold">
                         ¡Escríbenos!
                     </h2>
                     <p class="mt-4">

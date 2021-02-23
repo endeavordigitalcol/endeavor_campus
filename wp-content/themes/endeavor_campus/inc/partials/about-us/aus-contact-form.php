@@ -1,9 +1,9 @@
 <form>
     <div class="form-row">
-        <div class="col mt-3">
+        <div class="col-md-6 mt-3">
             <input class="form-control" type="text" name="name" id="name" placeholder="Nombre completo*" required>
         </div>
-        <div class="col mt-3">
+        <div class="col-md-6 mt-3">
             <input class="form-control" type="email" name="email" id="email" placeholder="Correo electrónico*" required>
         </div>
     </div>
@@ -13,7 +13,7 @@
         </div>
     </div>
     <div class="form-row">
-        <div class="col">
+        <div class="col mt-3">
             <a href="" id="aus-contact-form-button">
                 Enviar
             </a>
