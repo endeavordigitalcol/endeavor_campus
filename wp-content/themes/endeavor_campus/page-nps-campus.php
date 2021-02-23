@@ -6,33 +6,33 @@
     </h1>
 </section>
 
-<section id="nps-form" class="mt-4 mb-4">
+<section id="nps-form" class="mt-4 mb-5">
     <div class="container">
-        <div class="row">
-            <div class="col">
-                <form>
-                    <div class="form-group">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+                <form class="text-center">
+                    <div class="form-group mt-5">
                         <h4>
-                            <label for="email">Correo electrónico</label>
+                            <label for="email"><b>Correo electrónico*</b></label>
                         </h4>
-                        <input class="form-control" type="email" name="email" id="email">
+                        <input class="form-control" type="email" name="email" id="email" required>
                     </div>
-                    <div class="form-group">
-                        <h4>
-                            ¿Con qué probabilidad recomendaría la plataforma de contenidos para emprendedores Endeavor Campus a un amigo?
+                    <div class="form-group mt-5">
+                        <h4 class="text-center">
+                            ¿Con qué probabilidad recomendaría la plataforma de contenidos para emprendedores Endeavor Campus a un amigo?*
                         </h4>
-                        <p>
+                        <p class="text-center">
                             Seleccione en la escala de 1 a 10, donde 1 no es probable y 10 es muy probable.
                         </p>
-                        <div id="nps-score"></div>
+                        <div id="nps-score" class="text-center"></div>
                     </div>
-                    <div class="form-group">
-                        <h4>
+                    <div class="form-group mt-5">
+                        <h4 class="text-center">
                             <label for="nps-reason"><b>¿Por qué?</b> Cuéntenos un poco más sobre su respuesta</label>
                         </h4>
                         <input class="form-control" type="text" name="nps-reason" id="nps-reason">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group mt-5 text-center">
                         <h4>
                             En qué <b>tipo de formato</b> preferiría que presentáramos los contenidos de Endeavor Campus
                         </h4>

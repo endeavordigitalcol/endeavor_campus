@@ -35,6 +35,7 @@ function ca_enqueue()
 
     ca_localize_script('ca_filter_content', $arr_post);
     ca_localize_script('ca_post_pagination', $arr_post);
+    ca_localize_script('ca_nps', $arr_post);
     ca_localize_script('ca_contact_form', $arr_post);
 
     if (is_page('contenidos'))

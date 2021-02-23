@@ -13,6 +13,7 @@ include(get_theme_file_path( 'process/filter-content-click.php' ));
 include(get_theme_file_path( 'process/post-views.php' ));
 include(get_theme_file_path( 'process/load-more-contents.php' ));
 include(get_theme_file_path( 'process/aus-contact-form.php' ));
+include(get_theme_file_path( 'process/nps-form.php' ));
 
 // Hooks
 add_action( 'wp_enqueue_scripts', 'ca_enqueue');
@@ -27,5 +28,7 @@ add_action( 'wp_ajax_load_more_contents', 'load_more_contents' );
 add_action( 'wp_ajax_nopriv_load_more_contents', 'load_more_contents' );
 add_action( 'wp_ajax_aus_contact_form', 'aus_contact_form' );
 add_action( 'wp_ajax_nopriv_aus_contact_form', 'aus_contact_form' );
+add_action( 'wp_ajax_nps_form', 'nps_form' );
+add_action( 'wp_ajax_nopriv_nps_form', 'nps_form' );
 
 // Shortcodes

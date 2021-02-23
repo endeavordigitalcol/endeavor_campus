@@ -3,7 +3,7 @@
         for (i = 1; i <= 10; i++) {
             html = `
                 <div class="form-check form-check-inline form-check-radio">
-                    <input type="radio" name="nps-score" id="nps-score-${i}" value="nps-score-${i}" class="form-check-input">
+                    <input type="radio" name="nps-score" id="nps-score-${i}" value="nps-score-${i}" class="form-check-input" required>
                     <label class="form-check-label" for="nps-score-${i}">${i}</label>
                 </div>
             `;
@@ -18,13 +18,23 @@
         e.preventDefault();
 
         form = {
+            action:     'nps_form',
             email:      $('#email').val(),
             nps_score:  $('[name=nps-score]:checked').val(),
             reason:     $('#nps-reason').val(),
             formats:    nps_format_checked(),
         }
 
-        console.log(form);
+        if(!form.email || !form.nps_score){
+            alert(`Debe diligenciar los campos obligatorios (*)`);
+            return;
+        }
+
+        $.post(filter_obj.ajax_url, form).always(function (data){
+            if(data){
+                alert('¡Gracias por su respuesta!');
+            }
+        });
     })
 
     fill_score_html();
