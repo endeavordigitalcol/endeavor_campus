@@ -3,7 +3,7 @@
         <div class="row pt-5 pb-5 align-items-center">
             <div class="col-lg-6">
                 <h3 class="text-white font-weight-bold">
-                    ¡SUSCRIBETE A NUESTRO<br><span class="color-dark-navy">NEWSLETTER DE CONTENIDOS</span><br>PARA EMPRENDEDORES!
+                    ¡SUSCRÍBETE A NUESTRO<br><span class="color-dark-navy">NEWSLETTER DE CONTENIDOS</span><br>PARA EMPRENDEDORES!
                 </h3>
                 <p class="text-white m-0 pt-3">
                     Recibirás consejos, invitaciones a talleres y herramientas creadas con la experiencia de la Red Endeavor.
