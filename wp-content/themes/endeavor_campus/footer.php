@@ -55,7 +55,7 @@
                             </h5>
                             <ul class="footer-list">
                                 <li>
-                                    <a href="#" class="text-white">
+                                    <a href="https://endeavorcampus.com/wp-content/uploads/2021/03/POLÍTICA-DE-TRATAMIENTO-DE-DATOS-PERSONALES.pdf" target="_blank" class="text-white">
                                         Términos y condiciones
                                     </a>
                                 </li>
