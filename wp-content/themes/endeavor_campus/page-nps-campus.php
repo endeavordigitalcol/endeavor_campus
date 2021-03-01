@@ -34,7 +34,7 @@
                     </div>
                     <div class="form-group mt-5">
                         <h4 class="text-center">
-                            <label for="nps-reason">¿Sobre qué temas te gustaría encontrar contenidos en Endeavor Campus?</label>
+                            <label for="nps-reason">¿Sobre qué temas le gustaría encontrar contenidos en Endeavor Campus?</label>
                         </h4>
                         <input class="form-control" type="text" name="nps-themes" id="nps-themes">
                     </div>
