@@ -4,7 +4,9 @@
             <div class="col">
                 <div class="sc-card">
                     <div class="sc-card--header">
-                        <?php echo $args['thumbnail'] ?>
+                        <a href="<?php echo $args['link'] ?>">
+                            <?php echo $args['thumbnail'] ?>
+                        </a>
                     </div>
                     <div class="sc-card--body">
                         <h2>
@@ -17,11 +19,10 @@
                             <?php echo $args['excerpt'] ?>
                         </p>
                         <div>
-                            <a class="cat-button" 
-                                href="<?php echo $args['link'] ?>">
-                                    Ver contenido 
-                                    <span class="icon-Right-arrow btn-icon">
-                                    </span>
+                            <a class="cat-button" href="<?php echo $args['link'] ?>">
+                                Ver contenido
+                                <span class="icon-Right-arrow btn-icon">
+                                </span>
                             </a>
                         </div>
                     </div>

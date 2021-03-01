@@ -18,8 +18,10 @@
                         </div>
                     </div>
                     <div class="sc-card--header">
-                        <?php echo $args['thumbnail'] ?>
-                        <div class="sp-resource--overlay"></div>
+                        <a href="<?php echo $args['link'] ?>">
+                            <?php echo $args['thumbnail'] ?>
+                            <div class="sp-resource--overlay"></div>
+                        </a>
                     </div>
                 </div>
             </div>
