@@ -14,4 +14,14 @@ if ($special_query->have_posts()) {
     }
 }
 
-wp_reset_postdata();
+?>
+
+<div class="col-12 mt-3 mb-3">
+    <p class="text-center">
+        <a href="<?php echo home_url('tag/' . $args['tag']) ?>" class="button">
+            Ver más <span class="icon-Right-arrow"></span>
+        </a>
+    </p>
+</div>
+
+<?php wp_reset_postdata(); ?>

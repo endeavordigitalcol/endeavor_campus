@@ -107,6 +107,24 @@ iframe{
     box-shadow: none;
 }
 
+.button{
+    border: 1px solid var(--teal);
+    font-family: 'Whitney Book';
+    padding: .5rem 1rem;   
+    transition: .5s;
+    margin: 1rem;
+}
+
+.button span{
+    font-size: .8rem;
+}
+
+.button:hover{
+    background-color: var(--teal);
+    color: white;
+    transition: .5s
+}
+
 @media (min-width: 768px){
     .wp-block-quote {
         width: 90%;
