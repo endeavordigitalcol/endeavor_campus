@@ -146,6 +146,9 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
                 </h1>
             </div>
             <div class="col-lg-10">
+                <p class="mt-4">
+                Descubre en estos talleres que realizamos junto a Facebook, las mejores prácticas y oportunidades para mejorar tu presencia digital, obtener más clientes potenciales, comunicarte con tus clientes y aumentar tus ventas. ¡No te quedes sin ver estos talleres con los expertos de Impulsa con Facebook!
+                </p>
             </div>
         </div>
         <div class="row">
