@@ -163,7 +163,7 @@
                         ¡Escríbenos!
                     </h2>
                     <p class="mt-4">
-                        ¿Estas interesado en apoyar la misión de Endeavor Campus de inspirar y educar a los emprendedores?
+                        ¿Estás interesado en apoyar la misión de Endeavor Campus de inspirar y educar a los emprendedores?
                     </p>
                 </div>
                 <div class="col-lg-8">
