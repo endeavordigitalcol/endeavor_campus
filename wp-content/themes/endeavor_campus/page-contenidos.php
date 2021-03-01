@@ -11,15 +11,14 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
 
 <section class="page-description">
     <div class="container">
-        <div class="row pt-5">
-            <div class="col">
+        <div class="row pt-5 justify-content-center mb-5">
+            <div class="col-lg-6 col-md-8">
                 <h2 class="text-center">
                     <?php  _e('CATEGORÍAS DE CONTENIDO', 'campus') ?>
                 </h2>
                 <p class="text-center pt-3">
                 ¿Cuál es el reto de tu empresa que quieres resolver?<br>
-                Selecciona el área de tu emprendimiento en la que tienes un desafío.<br>
-                ¡Seguro tenemos un contenido para ayudarte a resolverlo! 
+                Utiliza el filtro para encontrar contenidos según el tema de tu interés, el sector de la economía de tu empresa o tu formato favorito. 
                 </p>
             </div>
         </div>
@@ -30,6 +29,14 @@ get_template_part('inc/partials/main-banners', null, $banner_args);
 
 <section>
     <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-lg-8 col-md-10">
+                <p class="text-center">
+                O Selecciona el área de tu emprendimiento en la que tienes un desafío.
+                <br>¡Seguro tenemos un contenido para ayudarte a resolverlo!
+                </p>
+            </div>
+        </div>
         <div class="row">
             <?php
             $cats = get_categories( array( 'hide_empty' => false ) );
