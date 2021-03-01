@@ -32,6 +32,12 @@
                         </h4>
                         <input class="form-control" type="text" name="nps-reason" id="nps-reason">
                     </div>
+                    <div class="form-group mt-5">
+                        <h4 class="text-center">
+                            <label for="nps-reason">¿Sobre qué temas te gustaría encontrar contenidos en Endeavor Campus?</label>
+                        </h4>
+                        <input class="form-control" type="text" name="nps-themes" id="nps-themes">
+                    </div>
                     <div class="form-group mt-5 text-center">
                         <h4>
                             En qué <b>tipo de formato</b> preferiría que presentáramos los contenidos de Endeavor Campus
@@ -47,10 +53,6 @@
                         <div class="form-check form-check-inline form-check-format">
                             <input type="checkbox" class="form-check-input" id="format-article" value="format-infographic" name="nps-format">
                             <label for="format-infogrphic" class="form-check-label"><?php _e('Infografía', 'campus') ?></label>
-                        </div>
-                        <div class="form-check form-check-inline form-check-format">
-                            <input type="checkbox" class="form-check-input" id="format-article" value="format-interview" name="nps-format">
-                            <label for="format-interview" class="form-check-label"><?php _e('Entrevista', 'campus') ?></label>
                         </div>
                         <div class="form-check form-check-inline form-check-format">
                             <input type="checkbox" class="form-check-input" id="format-article" value="format-guide" name="nps-format">

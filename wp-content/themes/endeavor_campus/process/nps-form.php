@@ -6,6 +6,7 @@ function nps_form(){
     $email          = isset($_POST['email']) ? sanitize_email($_POST['email']) : '';
     $nps_score      = intval(substr($_POST['nps_score'], 10));
     $reason         = isset($_POST['reason']) ? sanitize_text_field($_POST['reason']) : '';
+    $themes         = isset($_POST['themes']) ? sanitize_text_field($_POST['themes']) : '';
     $nps_formats    = isset($_POST['formats']) ? json_encode($_POST['formats']) : '';
 
     $table_name     = $wpdb->prefix . 'nps';
@@ -16,6 +17,7 @@ function nps_form(){
         'ip'        => $_SERVER['REMOTE_ADDR'],
         'score'     => $nps_score,
         'why'       => $reason,
+        'themes'    => $themes,
         'formats'   => $nps_formats
     );
 

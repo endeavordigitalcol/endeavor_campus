@@ -22,6 +22,7 @@
             email:      $('#email').val(),
             nps_score:  $('[name=nps-score]:checked').val(),
             reason:     $('#nps-reason').val(),
+            themes:     $('#nps-themes').val(),
             formats:    nps_format_checked(),
         }
 
