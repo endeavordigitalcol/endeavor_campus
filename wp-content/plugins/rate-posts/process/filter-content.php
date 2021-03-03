@@ -12,11 +12,19 @@ function r_filter_post_content($content){
         WHERE post_id='" . $post->ID ."'"
     );
 
+    $rating_count_self = 0;
+    $ip = $_SERVER['REMOTE_ADDR'];
+
     if( $rating_count > 0 ){
         $rating = round($wpdb->get_var(
             "SELECT AVG(`rating`) FROM `" . $wpdb->prefix . "post_ratings`
             WHERE post_id='" .  $post->ID . "'"
         ));
+
+        $rating_count_self = $wpdb->get_var(
+            "SELECT COUNT(*) FROM `" . $wpdb->prefix ."post_ratings`
+            WHERE post_id='" . $post->ID ."' AND user_ip='" . $ip . "'"
+        );
     }
     
     $post_data                  = get_post_meta($post->ID, 'post_data', true);
@@ -35,7 +43,7 @@ function r_filter_post_content($content){
     $post_html  = str_replace( 'POST_ID', $post->ID, $post_html ); 
     $post_html  = str_replace( 'POST_RATING', $post_data['rating'], $post_html );
 
-    if( $rating_count > 0 ){
+    if( $rating_count_self > 0 ){
         $post_html = str_replace( 'READONLY_PLACEHOLDER', 'data-rateit-READONLY="true"', $post_html );
     }else{
         $post_html = str_replace( 'READONLY_PLACEHOLDER', '', $post_html );
