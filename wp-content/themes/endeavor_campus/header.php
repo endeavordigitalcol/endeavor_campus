@@ -27,7 +27,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <a href="https://endeavor.org.co" target="_blank">
+                    <a href="https://endeavor.org.co">
                         <img src="https://endeavorcampus.com/wp-content/uploads/2020/11/Logo-Endeavor-Header.png" alt="">
                     </a>
                 </div>
