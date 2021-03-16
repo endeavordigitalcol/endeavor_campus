@@ -28,10 +28,12 @@ function ca_enqueue()
     wp_register_script('ca_post_pagination', $uri . '/assets/js/post-pagination.js', [], $ver, true);
     wp_register_script('ca_nps', $uri . '/assets/js/nps.js', [], $ver, true);
     wp_register_script('ca_contact_form', $uri . '/assets/js/aus-contact-form.js', [], $ver, true);
+    wp_register_script('ca_rd_station', 'https://d335luupugsy2.cloudfront.net/js/loader-scripts/71fb0af5-d199-46fd-8aa7-52ef2d44044c-loader.js', [], $ver, true);
 
     wp_enqueue_script('jquery');
     wp_enqueue_script('ca_swiper_js');
     wp_enqueue_script('ca_js');
+    wp_enqueue_script('ca_rd_station');
 
     ca_localize_script('ca_filter_content', $arr_post);
     ca_localize_script('ca_post_pagination', $arr_post);
@@ -49,6 +51,8 @@ function ca_enqueue()
 
     if (is_page('sobre-campus'))
         wp_enqueue_script('ca_contact_form');
+
+    add_filter('script_loader_tag', 'add_async_attribute', 10, 3);
 }
 
 function ca_localize_script($script, $params){
@@ -57,4 +61,12 @@ function ca_localize_script($script, $params){
         'filter_obj',
         $params
     );
+}
+
+function add_async_attribute($tag, $handle, $src){
+    if('ca_rd_station' != $handle)
+        return $tag;
+
+    $tag = '<script type="text/javascript" async src="' . esc_url( $src ) . '"></script>';
+    return $tag;
 }
