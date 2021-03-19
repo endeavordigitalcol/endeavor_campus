@@ -30,3 +30,16 @@
     color: var(--teal);
     text-transform: uppercase;
 }
+
+.nps-single-block {
+    border: 1px solid var(--dark-teal);
+    padding: 1rem;
+}
+
+.nps-single-block .cat-button{
+    color: var(--dark-teal);
+}
+
+.nps-single-block .cat-button:hover{
+    color: white;
+}
