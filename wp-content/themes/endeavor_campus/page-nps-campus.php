@@ -47,20 +47,16 @@
                             <label for="format-article" class="form-check-label"><?php _e('Artículo', 'campus') ?></label>
                         </div>
                         <div class="form-check form-check-inline form-check-format">
-                            <input type="checkbox" class="form-check-input" id="format-article" value="format-ebook" name="nps-format">
-                            <label for="format-ebook" class="form-check-label"><?php _e('EBook', 'campus') ?></label>
-                        </div>
-                        <div class="form-check form-check-inline form-check-format">
-                            <input type="checkbox" class="form-check-input" id="format-article" value="format-infographic" name="nps-format">
-                            <label for="format-infogrphic" class="form-check-label"><?php _e('Infografía', 'campus') ?></label>
-                        </div>
-                        <div class="form-check form-check-inline form-check-format">
-                            <input type="checkbox" class="form-check-input" id="format-article" value="format-guide" name="nps-format">
-                            <label for="format-guide" class="form-check-label"><?php _e('Guía o herramienta descargable', 'campus') ?></label>
+                            <input type="checkbox" class="form-check-input" id="format-article" value="format-interview" name="nps-format">
+                            <label for="format-interview" class="form-check-label"><?php _e('Entrevista', 'campus') ?></label>
                         </div>
                         <div class="form-check form-check-inline form-check-format">
                             <input type="checkbox" class="form-check-input" id="format-article" value="format-video" name="nps-format">
                             <label for="format-video" class="form-check-label"><?php _e('Video', 'campus') ?></label>
+                        </div>
+                        <div class="form-check form-check-inline form-check-format">
+                            <input type="checkbox" class="form-check-input" id="format-article" value="format-guide" name="nps-format">
+                            <label for="format-guide" class="form-check-label"><?php _e('Guía o herramienta descargable', 'campus') ?></label>
                         </div>
                     </div>
                     <button class="btn btn-primary" id="nps-button">Enviar</button>
