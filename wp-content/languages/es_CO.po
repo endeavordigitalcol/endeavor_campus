@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-02-22 11:53:42+0000\n"
+"PO-Revision-Date: 2021-03-11 17:28:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -97,6 +97,19 @@ msgstr ","
 #: wp-includes/js/dist/edit-post.js:4103 wp-admin/includes/upgrade.php:158
 msgid "Uncategorized"
 msgstr "Sin categoría"
+
+#: wp-includes/https-detection.php:139
+msgid "SSL verification failed."
+msgstr "Verificación SSL fallida."
+
+#: wp-includes/https-detection.php:134
+msgid "HTTPS request failed."
+msgstr "Solicitud HTTPS fallida."
+
+#. translators: 1: $l10n, 2: wp_add_inline_script()
+#: wp-includes/class.wp-scripts.php:492
+msgid "The %1$s parameter must be an array. To pass arbitrary data to scripts, use the %2$s function instead."
+msgstr "El parámetro %1$s debe ser un array. Para pasar datos arbitrarios a los scripts, usa en su lugar la función %2$s."
 
 #: wp-includes/query.php:909
 msgid "https://developer.wordpress.org/reference/functions/is_main_query/"

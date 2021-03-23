@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-02-22 11:52:22+0000\n"
+"PO-Revision-Date: 2021-03-11 17:28:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,6 +26,122 @@ msgstr "-5"
 #: wp-admin/upgrade.php:154
 msgid "Continue"
 msgstr "Continuar"
+
+#: wp-admin/about.php:110
+msgid "<strong>Buttons block:</strong> now you can choose a vertical or a horizontal layout. And you can set the width of a button to a preset percentage."
+msgstr "<strong>Bloque de botones:</strong> Ahora puedes elegir un diseño vertical u horizontal. Y puedes establecer el ancho de un botón a un porcentaje preestablecido."
+
+#: wp-admin/about.php:206
+msgid "Now it’s simple to let iframes lazy-load. By default, WordPress will add a <code>loading=\"lazy\"</code> attribute to iframe tags when both width and height are specified."
+msgstr "Ahora es fácil dejar que los iframes carguen de forma diferida. Por defecto, WordPress añadirá un atributo <code>loading=\"lazy\"</code> a las etiquetas del iframe cuando se especifique tanto la anchura como la altura."
+
+#: wp-admin/about.php:204
+msgid "In 5.7, jQuery gets more focused and less intrusive, with fewer messages in the console."
+msgstr "En la versión 5.7, jQuery se ha vuelto más centrado y menos intrusivo, con menos mensajes en la consola."
+
+#: wp-admin/about.php:197
+msgid "The new Robots API lets you include the filter directives in the robots meta tag, and the API includes the <code>max-image-preview: large</code> directive by default. That means search engines can show bigger image previews, which can boost your traffic (unless the site is marked <em>not-public</em>)."
+msgstr "La nueva API Robots te permite incluir el filtro de las directivas en la etiqueta meta «robots» y la API incluye por defecto la directiva <code>max-image-preview: large</code>. Eso significa que los motores de búsqueda pueden mostrar vistas previas más grandes de las imágenes, lo que puede impulsar tu tráfico (salvo que el sitio esté marcado como <em>no público</em>)."
+
+#: wp-admin/about.php:140
+msgid "Above, the Dashboard before and after the color update in 5.7."
+msgstr "Arriba, el escritorio antes y después de la actualización de color en la versión 5.7."
+
+#: wp-admin/about.php:137
+msgid "Dashboard with new color scheme."
+msgstr "El escritorio con el nuevo esquema de color."
+
+#: wp-admin/about.php:135
+msgid "Dashboard with old color scheme."
+msgstr "El escritorio con el anterior esquema de color."
+
+#: wp-admin/about.php:115
+msgid "<strong>Social Icons block:</strong> now you can change the size of the icons."
+msgstr "<strong>Bloque de iconos sociales:</strong> ahora puedes cambiar el tamaño de los iconos."
+
+#: wp-admin/about.php:205
+msgid "Lazy-load your iframes"
+msgstr "Carga diferida de tus iframes"
+
+#: wp-admin/about.php:203
+msgid "For years jQuery helped make things move on the screen in ways the basic tools couldn’t—but that keeps changing, and so does jQuery."
+msgstr "Durante años, jQuery ha ayudado a que las cosas se movieran en la pantalla de formas que las herramientas básicas no podían — pero eso sigue cambiando y también lo hace jQuery."
+
+#: wp-admin/about.php:202
+msgid "Ongoing cleanup after update to jQuery 3.5.1"
+msgstr "Limpieza en curso después de la actualización a jQuery 3.5.1"
+
+#: wp-admin/about.php:194
+msgid "New Robots API"
+msgstr "Nueva API de Robots"
+
+#: wp-admin/about.php:193
+msgid "Starting now, switching a site from HTTP to HTTPS is a one-click move. WordPress will automatically update database URLs when you make the switch. No more hunting and guessing!"
+msgstr "A partir de ahora, cambiar un sitio de HTTP a HTTPS es un movimiento de un solo clic. WordPress actualizará automáticamente las URL de la base de datos cuando hagas el cambio. ¡No más búsquedas y suposiciones!"
+
+#: wp-admin/about.php:192
+msgid "From HTTP to HTTPS in a single click"
+msgstr "De HTTP a HTTPS en un solo clic"
+
+#. translators: %s: Color palette dev note link.
+#: wp-admin/about.php:171
+msgid "Find the new palette in the default WordPress Dashboard color scheme, and use it when you’re building themes, plugins, or any other components. For all the details, <a href=\"%s\">check out the Color Palette dev note</a>."
+msgstr "Busca la nueva paleta en el esquema de color por defecto del escritorio de WordPress y úsala cuando crees temas, plugins o cualquier otro componente. Para todos los detalles, <a href=\"%s\">echa un vistazo a la nota de desarrollo de la paleta de color</a>."
+
+#: wp-admin/about.php:164
+msgid "Half the range has a 4.5 or higher contrast ratio against black, and the other half maintains the same contrast against white."
+msgstr "La mitad de la gama tiene una relación de contraste de 4,5 o superior frente al negro y la otra mitad mantiene el mismo contraste frente al blanco."
+
+#: wp-admin/about.php:157
+msgid "The colors are perceptually uniform from light to dark in each range, which means they start at white and get darker by the same amount with each step."
+msgstr "Los colores son perceptivamente uniformes de claro a oscuro en cada gama, lo que significa que empiezan en blanco y se van oscureciendo en la misma cantidad con cada paso."
+
+#. translators: %s: WCAG information link.
+#: wp-admin/about.php:150
+msgid "This new streamlined color palette collapses all the colors that used to be in the WordPress source code down to seven core colors and a range of 56 shades that meet the <a href=\"%s\">WCAG 2.0 AA recommended contrast ratio</a> against white or black."
+msgstr "Esta nueva paleta de color simplificada reduce todos los colores que solían estar en el código fuente de WordPress a siete colores básicos y a una gama de 56 tonos que cumplen la <a href=\"%s\">relación de contraste recomendada por la WCAG 2.0 AA</a> frente al blanco o al negro."
+
+#: wp-admin/about.php:128
+msgid "A Simpler Default Color Palette"
+msgstr "Una paleta de color por defecto más sencilla"
+
+#: wp-admin/about.php:105
+msgid "<strong>Full-height alignment:</strong> have you ever wanted to make a block, like the Cover block, fill the whole window? Now you can."
+msgstr "<strong>Alineación de altura completa:</strong> ¿alguna vez has querido hacer que un bloque, como el bloque de fondo, rellene toda la ventana? Ahora puedes hacerlo."
+
+#: wp-admin/about.php:100
+msgid "You can do more without writing custom code"
+msgstr "Puedes hacer más sin escribir código personalizado"
+
+#: wp-admin/about.php:86
+msgid "<strong>Inserter drag-and-drop:</strong> drag blocks and block patterns from the inserter right into your post."
+msgstr "<strong>Arrastrar y soltar en el insertador:</strong> arrastra bloques y patrones de bloques a tu entrada directamente desde el insertador."
+
+#: wp-admin/about.php:81
+msgid "<strong>Reusable blocks:</strong> several enhancements make reusable blocks more stable and easier to use. And now they save automatically with the post when you click the Update button."
+msgstr "<strong>Bloques reutilizables:</strong> varias mejoras hacen que los bloques reutilizables sean más estables y fáciles de usar. Y ahora se guardan automáticamente con la entrada cuando haces clic en el botón «Actualizar»."
+
+#: wp-admin/about.php:76
+msgid "<strong>Font-size adjustment in more places:</strong> now, font-size controls are right where you need them in the List and Code blocks. No more trekking to another screen to make that single change!"
+msgstr "<strong>Ajuste del tamaño de la fuente en más lugares:</strong> ahora, los controles del tamaño de la fuente están justo donde los necesitas en los bloques lista y de código. ¡Ya no hay que ir a otra pantalla para hacer ese único cambio!"
+
+#: wp-admin/about.php:71
+msgid "Now the editor is easier to use"
+msgstr "Ahora, el editor es más fácil de usar"
+
+#: wp-admin/about.php:61
+msgid "With this new version, WordPress brings you fresh colors. The editor helps you work in a few places you couldn’t before—at least, not without getting into code or hiring a pro. The controls you use most, like changing font sizes, are in more places—right where you need them. And layout changes that should be simple, like full-height images, are even simpler to make."
+msgstr "Con esta nueva versión, WordPress te trae nuevos colores. El editor te ayuda a trabajar en unos cuantos sitios donde antes no podías – al menos, no sin tener que ponerte a programar o contratar a un profesional. Los controles que más utilizas, como cambiar los tamaños de la fuente, están en más sitios – justo donde los necesitas. Y los cambios de diseño que deberían ser simples, como imágenes a altura completa, son incluso más sencillos de hacer."
+
+#. translators: %s: The current WordPress version number.
+#: wp-admin/about.php:54
+msgid "Step into WordPress %s."
+msgstr "Entra en WordPress %s."
+
+#: wp-admin/credits.php:37 wp-admin/privacy.php:34 wp-admin/freedoms.php:40
+#: wp-admin/about.php:37
+msgid "Jazz up your stories in an editor that’s cleaner, crisper, and does more to get out of your way."
+msgstr "Mejora tus historias con un editor más limpio, más nítido y que hace más para apartarse de tu camino."
 
 #: wp-admin/options-privacy.php:253
 msgid "Create"
@@ -403,6 +519,11 @@ msgstr "Tu web parece estar usando la identificación básica, que actualmente n
 #: wp-admin/includes/class-wp-site-health.php:2255
 msgid "https://developer.wordpress.org/rest-api/frequently-asked-questions/#why-is-authentication-not-working"
 msgstr "https://developer.wordpress.org/rest-api/frequently-asked-questions/#why-is-authentication-not-working"
+
+#. translators: %s: WordPress 5.7 Field Guide link.
+#: wp-admin/about.php:219
+msgid "Check out the latest version of the WordPress Field Guide. It highlights developer notes for each change you may want to be aware of. <a href=\"%s\">WordPress 5.7 Field Guide.</a>"
+msgstr "Echa un vistazo a la última versión de la guía de campo de WordPress. Destaca las notas del desarrollador para cada cambio que puedas querer conocer. <a href=\"%s\">Guía de campo de WordPress 5.7.</a>"
 
 #: wp-admin/update-core.php:382
 msgid "This site appears to be under version control. Automatic updates are disabled."
@@ -4916,7 +5037,7 @@ msgstr "Ingrese la dirección aquí si <a href=\"%s\">desea que la página de in
 #. translators: %s: https://wordpress.org/about/privacy
 #: wp-admin/privacy.php:68
 msgid "We take privacy and transparency very seriously. To learn more about what data we collect, and how we use it, please visit <a href=\"%s\">our Privacy Policy</a>."
-msgstr "Nos tomamos muy seriamente la privacidad y la transparencia. Para aprender más sobre qué datos que recopilamos y cómo los usamos, por favor, visita <a href=\"%s\">nuestra política de privacidad</a>."
+msgstr "Nos tomamos muy seriamente la privacidad y la transparencia. Para aprender más sobre qué datos recopilamos y cómo los usamos, por favor, visita <a href=\"%s\">nuestra política de privacidad</a>."
 
 #: wp-admin/freedoms.php:60 wp-admin/freedoms.php:112
 msgid "https://wordpress.org/about/license/"
